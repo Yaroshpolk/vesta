@@ -1,0 +1,7 @@
+.navbar {
+    padding: 45px 0 35px 0;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}

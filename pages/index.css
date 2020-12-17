@@ -1,0 +1,38 @@
+/* Шрифты */
+@import url(../blocks/fonts/fonts.css);
+
+/* Общие стили */
+@import url(../blocks/root/root.css);
+@import url(../blocks/marged/marged.css);
+
+/* Поиск */
+@import url(../blocks/search/search.css);
+
+/* Блок языка */
+@import url(../blocks/language/language.css);
+@import url(../blocks/language/__current-lng/language__current-lng.css);
+@import url(../blocks/language/__change-lng/language__change-lng.css);
+
+/* Ссылки */
+@import url(../blocks/link/link.css);
+@import url(../blocks/link/_theme/navbar__link_theme_dark.css);
+@import url(../blocks/link/_theme/navbar__link_theme_light.css);
+@import url(../blocks/link/_underlined/link_underlined.css);
+@import url(../blocks/link/_sm/link_sm.css);
+
+/* Логотипы */
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
+
+/* Навигационное меню */
+@import url(../blocks/navbar/navbar.css);
+@import url(../blocks/navbar/__block/navbar__block_left.css);
+@import url(../blocks/navbar/__block/navbar__block_right.css);
+@import url(../blocks/navbar/__list/navbar__list.css);
+@import url(../blocks/navbar/__item/navbar__item.css);
+@import url(../blocks/navbar/__phone/navbar__phone.css);
+@import url(../blocks/navbar/__tel/navbar__tel.css);
+
+/* Шапка */
+@import url(../blocks/header/header.css);
