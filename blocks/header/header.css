@@ -1,3 +1,4 @@
 .header {
-    height: 45px;
+    max-width: 100%;
+    padding: 2.8125em 0 2.1875em 0;
 }

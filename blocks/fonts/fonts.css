@@ -1,3 +1,16 @@
+/* Шрифт Danger */
+@font-face {
+    font-family: 'Danger';
+    src: url('../../vendor/fonts/Danger/Danger.eot');
+    src: local('Danger'),
+    url('../../vendor/fonts/Danger/Danger.eot?#iefix') format('embedded-opentype'),
+    url('../../vendor/fonts/Danger/Danger.woff') format('woff'),
+    url('../../vendor/fonts/Danger/Danger.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Шрифт Myriad Pro */
 @font-face {
     font-family: 'Myriad Pro';
     src: url('../../vendor/fonts/MyriadPro/MyriadPro-SemiboldIt.eot');

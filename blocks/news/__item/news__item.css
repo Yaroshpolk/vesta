@@ -1,0 +1,15 @@
+.news__item {
+    width: 33.33%;
+    padding: 1.875em 0 3.4375em 0;
+    box-sizing: border-box;
+}
+
+.news__item:nth-child(1),
+.news__item:nth-child(3) {
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    -moz-border-image: url(../../../images/border_dashed.png) 0 2 0 2;
+    -webkit-border-image: url(../../../images/border_dashed.png) 0 2 0 2;
+    -o-border-image: url(../../../images/border_dashed.png) 0 2 0 2;
+    border-image: url(../../../images/border_dashed.png) 0 2 0 2;
+}

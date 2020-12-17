@@ -1,6 +1,7 @@
 .search {
     background-image: url(../../images/search-icon.png);
-    width: 43px;
-    height: 44px;
+    width: 2.6875em;
+    height: 2.75em;
     display: inline-block;
+    background-size: cover;
 }

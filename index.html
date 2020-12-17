@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="pages/index.css">
 </head>
-<body class="root marged">
+<body class="root">
     <header class="header">
-        <div class="navbar">
+        <div class="navbar marged">
             <div class="navbar__block_left">
                 <img class="logo logo_place_header" src="images/logo/logo-header.png" alt="Логотип Веста">
 
@@ -39,7 +39,7 @@
             <div class="navbar__block_right">
                 <div class="navbar__phone">
                     <span class="navbar__tel">8 800 301 06 68</span>
-                    <a class="link link_underlined link_sm" href="#" target="_self">Другие телефоны</a>
+                    <a class="link link_underlined link_sm navbar__tel-link" href="#" target="_self">Другие телефоны</a>
                 </div>
 
                 <a href="#" class="search" target="_self"></a>
@@ -50,14 +50,57 @@
                 </div>
             </div>
         </div>
+
+        <div class="header__rotator">
+
+        </div>
+
+        <div class="header__subline"></div>
     </header>
 
     <main class="content">
-
+        <section class="news">
+            <ul class="news__list">
+                <li class="news__item">
+                    <img src="images/news_image.png" alt="Иллюстрация новости" class="news__img">
+                    <div class="news__text">
+                        <h3 class="news__title">Время для бомбических новостей!</h3>
+                        <p class="news__description">
+                            Короткое описание, ключевые слова или что-то типа этого, возможно подразделы.
+                        </p>
+                        <span class="news__date">18.10</span>
+                    </div>
+                </li>
+                <li class="news__item">
+                    <img src="images/news_image.png" alt="Иллюстрация новости" class="news__img">
+                    <div class="news__text">
+                        <h3 class="news__title">Время для бомбических новостей!</h3>
+                        <p class="news__description">
+                            Короткое описание, ключевые слова или что-то типа этого, возможно подразделы.
+                        </p>
+                        <span class="news__date">18.10</span>
+                    </div>
+                </li>
+                <li class="news__item">
+                    <img src="images/news_image.png" alt="Иллюстрация новости" class="news__img">
+                    <div class="news__text">
+                        <h3 class="news__title">Время для бомбических новостей!</h3>
+                        <p class="news__description">
+                            Короткое описание, ключевые слова или что-то типа этого, возможно подразделы.
+                        </p>
+                        <span class="news__date">18.10</span>
+                    </div>
+                </li>
+            </ul>
+        </section>
     </main>
 
     <footer class="footer">
 
     </footer>
+
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script type="text/javascript" src="pages/index.js"></script>
 </body>
 </html>

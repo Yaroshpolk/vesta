@@ -1,0 +1,8 @@
+.news__title {
+    margin: 0;
+    font-size: 1.5625em;
+    letter-spacing: 0.3125em;
+    font-weight: normal;
+    text-transform: uppercase;
+    max-width: 215px;
+}
