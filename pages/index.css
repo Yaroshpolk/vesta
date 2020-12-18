@@ -25,6 +25,9 @@
 @import url(../blocks/logo/_place/logo_place_header.css);
 @import url(../blocks/logo/_place/logo_place_footer.css);
 
+/* Заголовки */
+@import url(../blocks/title/title.css);
+
 /* Шапка */
 @import url(../blocks/header/header.css);
 
@@ -50,3 +53,21 @@
 @import url(../blocks/news/__text/news__text.css);
 @import url(../blocks/news/__date/news__date.css);
 @import url(../blocks/news/__img/news__img.css);
+
+/* Форма контактная */
+@import url(../blocks/contact/contact.css);
+@import url(../blocks/contact/__title/contact__title.css);
+@import url(../blocks/contact/__form/contact__form.css);
+@import url(../blocks/contact/__phone-field/contact__phone-field.css);
+@import url(../blocks/contact/__submit/contact__submit.css);
+
+/* Таблица товаров */
+@import url(../blocks/products/products.css);
+@import url(../blocks/products/__list/products__list.css);
+@import url(../blocks/products/__item/products__item.css);
+@import url(../blocks/products/__link/products__link.css);
+@import url(../blocks/products/__img-container/products__img-container.css);
+@import url(../blocks/products/__img/products__img.css);
+@import url(../blocks/products/__type-item/products__type-item.css);
+@import url(../blocks/products/__type-list/products__type-list.css);
+@import url(../blocks/products/__tipe-link/products__type-link.css);

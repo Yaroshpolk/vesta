@@ -1,0 +1,8 @@
+.products__img {
+    display: block;
+    width: 60%;
+    max-height: 120%;
+    position: absolute;
+    bottom: 3em;
+    left: 20%;
+}
