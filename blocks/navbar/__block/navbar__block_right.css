@@ -1,3 +1,6 @@
 .navbar__block_right {
-    max-width: 420px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }

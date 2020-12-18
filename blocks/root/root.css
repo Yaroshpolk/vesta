@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 1440px){
 
   .root {
       font-size: 15px;
@@ -12,7 +12,7 @@
 
 }
 
-@media screen and (max-width: 1311px){
+@media screen and (max-width: 1350px){
 
     .root {
         font-size: 14px;
@@ -20,7 +20,7 @@
 
 }
 
-@media screen and (max-width: 1227px){
+@media screen and (max-width: 1263px){
 
     .root {
         font-size: 13px;
@@ -28,7 +28,7 @@
 
 }
 
-@media screen and (max-width: 1145px){
+@media screen and (max-width: 1168px){
 
     .root {
         font-size: 12px;
@@ -36,7 +36,7 @@
 
 }
 
-@media screen and (max-width: 1060px){
+@media screen and (max-width: 1083px){
 
     .root {
         font-size: 11px;
@@ -44,7 +44,7 @@
 
 }
 
-@media screen and (max-width: 975px){
+@media screen and (max-width: 993px){
 
     .root {
         font-size: 10px;
@@ -52,7 +52,7 @@
 
 }
 
-@media screen and (max-width: 885px){
+@media screen and (max-width: 903px){
 
     .root {
         font-size: 9px;
@@ -60,7 +60,7 @@
 
 }
 
-@media screen and (max-width: 805px){
+@media screen and (max-width: 823px){
 
     .root {
         font-size: 8px;
@@ -68,7 +68,7 @@
 
 }
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 738px){
 
     .root {
         font-size: 7px;

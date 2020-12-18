@@ -1,0 +1,6 @@
+.scroll-mouse {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: -5em 0 3.9375em 0;
+}

@@ -8,15 +8,32 @@
 /* Поиск */
 @import url(../blocks/search/search.css);
 
+/* Иконка прокрутки мыши */
+@import url(../blocks/scroll-mouse/scroll-mouse.css);
+@import url(../blocks/scroll-mouse/__mouse/scroll-mouse__mouse.css);
+@import url(../blocks/scroll-mouse/__arrow/scroll-mouse__arrow.css);
+
 /* Блок языка */
 @import url(../blocks/language/language.css);
 @import url(../blocks/language/__current-lng/language__current-lng.css);
 @import url(../blocks/language/__change-lng/language__change-lng.css);
 
+/* Блок с названием компании */
+@import url(../blocks/company/company.css);
+@import url(../blocks/company/__title/company__title.css);
+@import url(../blocks/company/__subtitle/company__subtitle.css);
+@import url(../blocks/company/_theme/company_theme_dark.css);
+@import url(../blocks/company/_theme/company_theme_light.css);
+
+/* Выравнивание текста */
+@import url(../blocks/text-align/_left.css);
+@import url(../blocks/text-align/_right.css);
+@import url(../blocks/text-align/center.css);
+
 /* Ссылки */
 @import url(../blocks/link/link.css);
-@import url(../blocks/link/_theme/navbar__link_theme_dark.css);
-@import url(../blocks/link/_theme/navbar__link_theme_light.css);
+@import url(../blocks/link/_theme/link_theme_dark.css);
+@import url(../blocks/link/_theme/link_theme_light.css);
 @import url(../blocks/link/_underlined/link_underlined.css);
 @import url(../blocks/link/_sm/link_sm.css);
 
@@ -30,6 +47,7 @@
 
 /* Шапка */
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__subline/header__subline.css);
 
 /* Навигационное меню */
 @import url(../blocks/navbar/navbar.css);
@@ -39,10 +57,11 @@
 @import url(../blocks/navbar/__item/navbar__item.css);
 @import url(../blocks/navbar/__phone/navbar__phone.css);
 @import url(../blocks/navbar/__tel/navbar__tel.css);
+@import url(../blocks/navbar/_theme/navbar_theme_dark.css);
+@import url(../blocks/navbar/_theme/navbar_theme_light.css);
 
-/* Слайдер в шапке */
-@import url(../blocks/header/__rotator/header__rotator.css);
-@import url(../blocks/header/__subline/header__subline.css);
+/* Слайдер */
+@import url(../blocks/rotator/rotator.css);
 
 /* Плитки новостей */
 @import url(../blocks/news/news.css);
@@ -56,10 +75,15 @@
 
 /* Форма контактная */
 @import url(../blocks/contact/contact.css);
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contact/__title-block/contact__title-block.css);
 @import url(../blocks/contact/__title/contact__title.css);
 @import url(../blocks/contact/__form/contact__form.css);
-@import url(../blocks/contact/__phone-field/contact__phone-field.css);
+@import url(../blocks/contact/__field/contact__field.css);
 @import url(../blocks/contact/__submit/contact__submit.css);
+@import url(../blocks/contact/__first-block/contacts__first-block.css);
+@import url(../blocks/contact/__second-block/contacts__second-block.css);
+@import url(../blocks/contacts/__container/contacts__container.css);
 
 /* Таблица товаров */
 @import url(../blocks/products/products.css);
@@ -71,3 +95,25 @@
 @import url(../blocks/products/__type-item/products__type-item.css);
 @import url(../blocks/products/__type-list/products__type-list.css);
 @import url(../blocks/products/__tipe-link/products__type-link.css);
+
+/* Выставки */
+@import url(../blocks/exhibitions/exhibitions.css);
+
+/* О нас */
+@import url(../blocks/about/about.css);
+
+/* Блок с картой */
+@import url(../blocks/map/map.css);
+@import url(../blocks/map/__container/map__container.css);
+
+/* Секция связи */
+@import url(../blocks/contacts/contacts.css);
+
+/* Подвал */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__nav/footer__nav.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/footer/__column-item/footer__column-item.css);
+@import url(../blocks/footer/__column-title/footer__column-title.css);
+@import url(../blocks/footer/__link/footer__link.css);

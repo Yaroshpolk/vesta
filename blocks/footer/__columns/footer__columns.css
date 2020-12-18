@@ -1,0 +1,7 @@
+.footer__columns {
+    width: 58em;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+}

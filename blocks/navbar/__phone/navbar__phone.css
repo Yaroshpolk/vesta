@@ -1,7 +1,7 @@
 .navbar__phone {
-    max-width: 225px;
+    width: 14.0625em;
     text-align: end;
     display: inline-block;
-    margin-right: 5.9375em;
+    margin-right: 4em;
     letter-spacing: 0.125em;
 }

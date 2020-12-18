@@ -1,0 +1,7 @@
+.map__container {
+    max-width: 1920px;
+    height: 36.8125em;
+    background-image: url(../../../images/map.jpg);
+    background-size: cover;
+    background-position: center;
+}
