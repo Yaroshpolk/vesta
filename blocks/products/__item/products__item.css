@@ -1,13 +1,14 @@
 .products__item {
     border: 1px solid #000;
-    width: 22em;
+    width: 25%;
     text-align: center;
     height: 25.9375em;
+    box-sizing: border-box;
 }
 
 .products__item:nth-child(5),
 .products__item:nth-child(6),
 .products__item:nth-child(7),
 .products__item:nth-child(8){
-    margin-top: 6.25em;
+    margin-top: 8em;
 }

@@ -2,7 +2,7 @@
     list-style: none;
     max-width: 1650px;
     padding: 0;
-    margin: 7.5em auto;
+    margin: 3em auto 6.5em auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;

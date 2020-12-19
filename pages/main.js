@@ -207,6 +207,7 @@ var multiItemSlider = (function () {
             });
         }
 
+
         // инициализация
         _setUpListeners();
         if (document.visibilityState === "visible") {
@@ -235,6 +236,9 @@ var multiItemSlider = (function () {
     }
 }());
 
-var slider = multiItemSlider('.slider', {
+var slider = multiItemSlider('#slider-header', {
+    isCycling: true
+})
+var slider = multiItemSlider('#slider-exhibitions', {
     isCycling: true
 })

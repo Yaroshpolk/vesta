@@ -1,6 +1,6 @@
-.slider__control {
+#slider-header .slider__control {
     position: absolute;
-    top: 50%;
+    top: 20em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,8 +12,30 @@
     transform: translateY(-50%);
 }
 
-.slider__control:hover,
-.slider__control:focus {
+#slider-header .slider__control:hover,
+#slider-header .slider__control:focus {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    opacity: .9;
+}
+
+#slider-exhibitions .slider__control {
+    position: absolute;
+    top: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 13.125em;
+    color: #fff;
+    text-align: center;
+    opacity: 0.5;
+    height: 100%;
+    transform: translateY(-50%);
+}
+
+#slider-exhibitions .slider__control:hover,
+#slider-exhibitions .slider__control:focus {
     color: #fff;
     text-decoration: none;
     outline: 0;

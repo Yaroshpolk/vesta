@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 1500px){
 
   .root {
       font-size: 15px;
@@ -12,7 +12,7 @@
 
 }
 
-@media screen and (max-width: 1350px){
+@media screen and (max-width: 1410px){
 
     .root {
         font-size: 14px;
@@ -20,7 +20,7 @@
 
 }
 
-@media screen and (max-width: 1263px){
+@media screen and (max-width: 1323px){
 
     .root {
         font-size: 13px;
@@ -28,7 +28,7 @@
 
 }
 
-@media screen and (max-width: 1168px){
+@media screen and (max-width: 1228px){
 
     .root {
         font-size: 12px;
@@ -36,7 +36,7 @@
 
 }
 
-@media screen and (max-width: 1083px){
+@media screen and (max-width: 1163px){
 
     .root {
         font-size: 11px;
@@ -44,7 +44,7 @@
 
 }
 
-@media screen and (max-width: 993px){
+@media screen and (max-width: 1053px){
 
     .root {
         font-size: 10px;
@@ -52,7 +52,7 @@
 
 }
 
-@media screen and (max-width: 903px){
+@media screen and (max-width: 963px){
 
     .root {
         font-size: 9px;
@@ -60,7 +60,7 @@
 
 }
 
-@media screen and (max-width: 823px){
+@media screen and (max-width: 883px){
 
     .root {
         font-size: 8px;
@@ -68,7 +68,7 @@
 
 }
 
-@media screen and (max-width: 738px){
+@media screen and (max-width: 793px){
 
     .root {
         font-size: 7px;
@@ -77,7 +77,7 @@
 }
 
 /* Адаптивное разрешение */
-@media screen and (max-width: 640px){
+@media screen and (max-width: 700px){
 
     .root {
         font-size: 6px;

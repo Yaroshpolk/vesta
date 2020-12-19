@@ -1,6 +1,13 @@
-.slider__text {
+#slider-header .slider__text {
     display: inline-block;
     align-self: center;
     max-width: 30.125em;
+    max-height: 27.375em;
+}
+
+#slider-exhibitions .slider__text {
+    display: inline-block;
+    align-self: center;
+    max-width: 38em;
     max-height: 27.375em;
 }

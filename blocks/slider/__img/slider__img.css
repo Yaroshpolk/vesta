@@ -1,6 +1,11 @@
-.slider__img {
+#slider-header .slider__img {
     max-width: 570px;
     height: 37.5em;
     margin: 5em 14.0625em 0 10em;
+}
 
+#slider-exhibitions .slider__img {
+    margin: 0 6em 0 20.0625em;
+    height: 20.5em;
+    min-width: 31.25em;
 }

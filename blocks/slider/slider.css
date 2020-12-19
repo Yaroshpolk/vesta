@@ -1,4 +1,13 @@
-.slider {
+#slider-header {
     position: relative;
     height: 36.9em;
+}
+
+#slider-exhibitions  {
+    position: relative;
+    height: 20em;
+}
+
+.slider {
+    overflow: hidden;
 }

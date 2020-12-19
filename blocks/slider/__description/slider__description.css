@@ -1,4 +1,11 @@
-.slider__description {
+#slider-header .slider__description {
     padding: 0;
     margin: 2.375em 0 3.75em 0;
+}
+
+#slider-exhibitions .slider__description {
+    font-size: 0.875em;
+    padding: 0;
+    margin: 2.375em 0 3.75em 0;
+    width: 30em;
 }
