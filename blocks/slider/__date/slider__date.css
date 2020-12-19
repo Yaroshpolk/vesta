@@ -1,0 +1,8 @@
+.slider__date {
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #000;
+    padding: 0.8125em 1.25em;
+    margin: 0;
+    background-color: #e4be8c;
+}

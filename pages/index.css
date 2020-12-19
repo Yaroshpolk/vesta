@@ -61,7 +61,22 @@
 @import url(../blocks/navbar/_theme/navbar_theme_light.css);
 
 /* Слайдер */
-@import url(../blocks/rotator/rotator.css);
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__wrapper/slider__wrapper.css);
+@import url(../blocks/slider/__control/slider__control.css);
+@import url(../blocks/slider/__item/slider__item.css);
+@import url(../blocks/slider/__control/_position/slider__control_position_left.css);
+@import url(../blocks/slider/__control/_position/slider__control_position__right.css);
+@import url(../blocks/slider/__text/slider__text.css);
+@import url(../blocks/slider/__img-container/slider__img-container.css);
+@import url(../blocks/slider/__img/slider__img.css);
+@import url(../blocks/slider/__title/slider__title.css);
+@import url(../blocks/slider/__subtitle/slider__subtitle.css);
+@import url(../blocks/slider/__description/slider__description.css);
+@import url(../blocks/slider/__date/slider__date.css);
+@import url(../blocks/slider/__button/slider__button.css);
+@import url(../blocks/slider/__text/_theme/slider__text_theme_dark.css);
+@import url(../blocks/slider/__text/_theme/slider__text_theme_light.css);
 
 /* Плитки новостей */
 @import url(../blocks/news/news.css);

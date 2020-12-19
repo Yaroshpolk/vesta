@@ -1,0 +1,8 @@
+.slider__control_position_right {
+    right: 0;
+}
+
+.slider__control_position_right::before {
+    background-image: url(../../../../images/slider/row-right.svg);
+    background-position: center;
+}
