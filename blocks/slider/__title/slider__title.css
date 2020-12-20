@@ -2,6 +2,8 @@
     padding: 0;
     margin: .2em 0 0 0;
     font-family: 'Danger', sans-serif;
+    font-weight: normal;
+    font-style: normal;
     font-size: 6.1875em;
     text-transform: uppercase;
     letter-spacing: .1em;
@@ -11,6 +13,8 @@
     padding: 0;
     margin: 0;
     font-family: 'Danger', sans-serif;
+    font-weight: normal;
+    font-style: normal;
     font-size: 4.375em;
     text-transform: uppercase;
     letter-spacing: .1em;
