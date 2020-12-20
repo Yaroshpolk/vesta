@@ -3,4 +3,5 @@
     background-image: url(../../images/exhibitions.jpg);
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 }
