@@ -120,7 +120,19 @@
 
 /* О нас */
 @import url(../blocks/about/about.css);
-@import url(../blocks/about/__video/about__video.css);
+
+/* Видео плеер */
+@import url(../blocks/player/player.css);
+@import url(../blocks/player/__wrapper/player__wrapper.css);
+@import url(../blocks/player/__video/player__video.css);
+@import url(../blocks/player/__wrapper/_status/player__wrapper_status_visible.css);
+@import url(../blocks/player/__wrapper/_status/player__wrapper_status_hidden.css);
+@import url(../blocks/player/__info/player__info.css);
+@import url(../blocks/player/__info-item/player__info-item.css);
+@import url(../blocks/player/__description/player__description.css);
+@import url(../blocks/player/__title/player__title.css);
+@import url(../blocks/player/__start/player__start.css);
+@import url(../blocks/player/__time/player__time.css);
 
 /* Блок с картой */
 @import url(../blocks/map/map.css);

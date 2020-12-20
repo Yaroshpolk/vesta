@@ -1,0 +1,10 @@
+.player__title {
+    padding: 0;
+    margin: 0;
+    font-family: 'Danger', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 4.375em;
+    letter-spacing: 0.1em;
+}

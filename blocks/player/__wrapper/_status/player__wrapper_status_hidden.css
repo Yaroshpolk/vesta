@@ -1,0 +1,5 @@
+.player__wrapper_status_hidden {
+    opacity: 0;
+    z-index: -3;
+    transition: .5s;
+}
