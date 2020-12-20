@@ -1,8 +1,17 @@
 .contacts {
     background-color: #f5f5f5;
     margin-bottom: 4.0625em;
+    padding-bottom: 3.75em;
 }
 
 .contacts .contact:first-child {
     margin-right: 10em;
 }
+
+ .contacts .contact__title-block{
+    margin-bottom: 3.125em !important;
+}
+
+ .contacts .contact__form {
+     margin-bottom: 3.75em !important;
+ }
