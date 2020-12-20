@@ -90,6 +90,7 @@
 @import url(../blocks/news/__text/news__text.css);
 @import url(../blocks/news/__date/news__date.css);
 @import url(../blocks/news/__img/news__img.css);
+@import url(../blocks/news/__img-link/news__img-link.css);
 
 /* Форма контактная */
 @import url(../blocks/contact/contact.css);

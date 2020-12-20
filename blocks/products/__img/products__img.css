@@ -1,9 +1,14 @@
 .products__img {
+    position: absolute;
+    bottom: 3em;
+    left: 0;
     min-width: 12.5em;
     max-width: 16.875em;
     min-height: 15.4375em;
     max-height: 19.5625em;
-    position: absolute;
-    bottom: 3em;
-    left: 20%;
+}
+
+.products__item:nth-child(3) .products__img,
+.products__item:nth-child(7) .products__img{
+    left: 1.5em;
 }

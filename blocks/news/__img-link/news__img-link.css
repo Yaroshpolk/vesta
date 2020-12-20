@@ -1,0 +1,7 @@
+.news__img-link {
+    display: block;
+    text-decoration: none;
+    border-radius: 100%;
+    max-width: 10.875em;
+    margin-right: 2.5em;
+}

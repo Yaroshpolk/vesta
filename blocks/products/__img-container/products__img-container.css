@@ -1,5 +1,10 @@
 .products__img-container {
-    width: 100%;
+    display: block;
+    min-width: 12.5em;
+    max-width: 16.875em;
+    min-height: 15.4375em;
+    max-height: 19.5625em;
+    margin: 0 auto;
     height: 14.375em;
     position: relative;
 }

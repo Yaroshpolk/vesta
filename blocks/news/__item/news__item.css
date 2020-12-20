@@ -2,6 +2,10 @@
     width: 33.33%;
     padding: 1.875em 0 3.4375em 0;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
 .news__item:nth-child(1),
