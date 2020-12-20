@@ -36,6 +36,7 @@
 @import url(../blocks/link/_theme/link_theme_light.css);
 @import url(../blocks/link/_underlined/link_underlined.css);
 @import url(../blocks/link/_sm/link_sm.css);
+@import url(../blocks/link/link_active.css);
 
 /* Логотипы */
 @import url(../blocks/logo/logo.css);
@@ -118,6 +119,7 @@
 
 /* О нас */
 @import url(../blocks/about/about.css);
+@import url(../blocks/about/__video/about__video.css);
 
 /* Блок с картой */
 @import url(../blocks/map/map.css);

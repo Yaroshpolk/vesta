@@ -1,0 +1,8 @@
+.about__video {
+    width: 100%;
+    height: 44.375em;
+}
+
+.about__video:focus {
+    outline: 0 !important;
+}
