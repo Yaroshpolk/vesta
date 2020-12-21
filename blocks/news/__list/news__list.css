@@ -5,6 +5,7 @@
     margin: 3em auto 6.5em auto;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
 }
