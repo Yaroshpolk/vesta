@@ -1,0 +1,14 @@
+.page-informer__btn {
+    padding: 1.25em 1.875em;
+    border: 1px solid #000;
+    font-size: 0.875em;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 0.375em;
+}
+
+.page-informer__btn:hover {
+    transition: .3s ease;
+    background-color: rgba(0,0,0,.2);
+}

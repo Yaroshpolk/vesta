@@ -4,6 +4,7 @@
 /* Общие стили */
 @import url(../blocks/root/root.css);
 @import url(../blocks/marged/marged.css);
+@import url(../blocks/container/container.css);
 
 /* Поиск */
 @import url(../blocks/search/search.css);
@@ -87,13 +88,6 @@
 @import url(../blocks/crumbs/__item/crumbs__item.css);
 @import url(../blocks/crumbs/__list/crumbs__list.css);
 
-/* Список */
-@import url(../blocks/table/table.css);
-@import url(../blocks/table/__list/table__list.css);
-@import url(../blocks/table/__item/table__item.css);
-@import url(../blocks/table/__video/table__video.css);
-@import url(../blocks/table/__title/table__title.css);
-
 /* Пагинация */
 @import url(../blocks/pagination/pagination.css);
 @import url(../blocks/pagination/__list/pagination__list.css);
@@ -101,18 +95,39 @@
 @import url(../blocks/pagination/__link/pagination__link.css);
 @import url(../blocks/pagination/__selected/pagination__selected.css);
 
+/* Информер */
+@import url(../blocks/page-informer/page-informer.css);
+@import url(../blocks/page-informer/__date/page-informer__date.css);
+@import url(../blocks/page-informer/__description/page-informer__description.css);
+@import url(../blocks/page-informer/__title/page-informer__title.css);
+@import url(../blocks/page-informer/__img/page-informer__img.css);
+@import url(../blocks/page-informer/__btn/page-informer__btn.css);
+@import url(../blocks/page-informer/__text/page-informer__text.css);
 
-/* Контейнер */
-@import url(../blocks/container/container.css);
+/* Список */
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__list/table__list.css);
+@import url(../blocks/table/__item/table__item.css);
+@import url(../blocks/table/__image/table__image.css);
+@import url(../blocks/table/__title/table__title.css);
+@import url(../blocks/table/__description/table__description.css);
+
+section {
+    margin: 0 8.75em;
+}
+
+.page-title {
+    text-align: center;
+}
+
+.crumbs {
+    margin-bottom: 0;
+}
 
 .contact {
     padding: 6.25em 0;
     background-color: #f5f5f5;
     margin-bottom: 0;
-}
-
-.contact__field {
-    background: transparent;
 }
 
 .contact__form {
@@ -122,3 +137,26 @@
 .contact__title {
     margin-right: 2.5em;
 }
+
+.table__item {
+    width: 27%;
+    margin-right: 7.5%;
+    margin-bottom: 3em;
+}
+
+.table__image {
+    max-height: 17.8125em;
+    width: 100%;
+    margin-bottom: 1.5em;
+}
+
+.table__title {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin: 0;
+}
+
+.table {
+    margin-bottom: 5em;
+}
+
