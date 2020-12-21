@@ -1,0 +1,9 @@
+.crumbs__item {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 2.5em;
+}
+
+.crumbs__item:first-child {
+    margin: 0;
+}

@@ -1,5 +1,5 @@
-.contact {
-    margin: 0 auto 5.75em auto;
+.contact__block {
+    max-width: 750px;
     display: flex;
     flex-direction: row;
     justify-content: center;

@@ -1,0 +1,11 @@
+.video-table__item {
+    width: 32%;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 1.5%;
+    margin-bottom: 5em;
+}
+
+.video-table__item:nth-child(3n+3){
+    margin-right: 0;
+}

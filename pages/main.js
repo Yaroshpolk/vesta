@@ -20,8 +20,8 @@ var multiItemSlider = (function () {
     return function (selector, config) {
         var
             _mainElement = document.querySelector(selector), // основный элемент блока
-            _sliderWrapper = _mainElement.querySelector('.slider__wrapper'), // обертка для .slider-item
-            _sliderItems = _mainElement.querySelectorAll('.slider__item'), // элементы (.slider-item)
+            _sliderWrapper = _mainElement.querySelector('.slider__wrapper'), // обертка для .slider-__item
+            _sliderItems = _mainElement.querySelectorAll('.slider__item'), // элементы (.slider-__item)
             _sliderControls = _mainElement.querySelectorAll('.slider__control'), // элементы управления
             _sliderControlLeft = _mainElement.querySelector('.slider__control_position_left'), // кнопка "LEFT"
             _sliderControlRight = _mainElement.querySelector('.slider__control_position_right'), // кнопка "RIGHT"
