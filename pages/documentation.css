@@ -1,0 +1,134 @@
+/* Шрифты */
+@import url(../blocks/fonts/fonts.css);
+
+/* Общие стили */
+@import url(../blocks/root/root.css);
+@import url(../blocks/marged/marged.css);
+@import url(../blocks/container/container.css);
+
+/* Поиск */
+@import url(../blocks/search/search.css);
+
+/* Блок языка */
+@import url(../blocks/language/language.css);
+@import url(../blocks/language/__current-lng/language__current-lng.css);
+@import url(../blocks/language/__change-lng/language__change-lng.css);
+
+/* Блок с названием компании */
+@import url(../blocks/company/company.css);
+@import url(../blocks/company/__title/company__title.css);
+@import url(../blocks/company/__subtitle/company__subtitle.css);
+@import url(../blocks/company/_theme/company_theme_dark.css);
+@import url(../blocks/company/_theme/company_theme_light.css);
+
+/* Выравнивание текста */
+@import url(../blocks/text-align/_left.css);
+@import url(../blocks/text-align/_right.css);
+@import url(../blocks/text-align/center.css);
+
+/* Ссылки */
+@import url(../blocks/link/link.css);
+@import url(../blocks/link/_theme/link_theme_dark.css);
+@import url(../blocks/link/_theme/link_theme_light.css);
+@import url(../blocks/link/_underlined/link_underlined.css);
+@import url(../blocks/link/_sm/link_sm.css);
+@import url(../blocks/link/link_active.css);
+
+/* Логотипы */
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
+
+/* Заголовки */
+@import url(../blocks/title/title.css);
+@import url(../blocks/page-title/page-title.css);
+
+/* Шапка */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__subline/header__subline.css);
+
+/* Навигационное меню */
+@import url(../blocks/navbar/navbar.css);
+@import url(../blocks/navbar/__block/navbar__block_left.css);
+@import url(../blocks/navbar/__block/navbar__block_right.css);
+@import url(../blocks/navbar/__list/navbar__list.css);
+@import url(../blocks/navbar/__item/navbar__item.css);
+@import url(../blocks/navbar/__phone/navbar__phone.css);
+@import url(../blocks/navbar/__tel/navbar__tel.css);
+@import url(../blocks/navbar/_theme/navbar_theme_dark.css);
+@import url(../blocks/navbar/_theme/navbar_theme_light.css);
+
+/* Подвал */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__nav/footer__nav.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/footer/__column-item/footer__column-item.css);
+@import url(../blocks/footer/__column-title/footer__column-title.css);
+@import url(../blocks/footer/__link/footer__link.css);
+
+/* Крошки */
+@import url(../blocks/crumbs/crumbs.css);
+@import url(../blocks/crumbs/__item/crumbs__item.css);
+@import url(../blocks/crumbs/__list/crumbs__list.css);
+
+/* Список */
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__list/table__list.css);
+@import url(../blocks/table/__item/table__item.css);
+@import url(../blocks/table/__image/table__image.css);
+@import url(../blocks/table/__title/table__title.css);
+@import url(../blocks/table/__description/table__description.css);
+
+section {
+    margin: 0 8.75em;
+}
+
+.page-title {
+    text-align: center;
+}
+
+.crumbs {
+    margin-bottom: 0;
+}
+
+.table {
+    margin-bottom: 12em;
+    margin-top: 4em;
+}
+
+.table__item {
+    width: 14.1%;
+    min-height: 19.6875em;
+    background-color: #f2f2f2;
+    -webkit-box-shadow: 2px 3px 0px 1px rgba(0,0,0,0.35);
+    -moz-box-shadow: 2px 3px 0px 1px rgba(0,0,0,0.35);
+    box-shadow: 2px 3px 0px 1px rgba(0,0,0,0.35);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-right: 2.5%;
+}
+
+.table__item .link {
+    padding: 0;
+    letter-spacing: normal;
+    font-size: 1.125em;
+    margin: 1.3em 2.1875em;
+    width: 3.75em;
+    text-align: center;
+}
+
+.table__item:nth-child(3n+3){
+    margin-right: 2.5%;
+}
+
+.table__title {
+    padding: 0;
+    font-weight: bold;
+    font-size: 1.4em;
+    line-height: 1.2em;
+    letter-spacing: normal;
+    margin: 1.3em 1em;
+}
