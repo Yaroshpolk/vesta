@@ -1,0 +1,196 @@
+/* Шрифты */
+@import url(../blocks/fonts/fonts.css);
+
+/* Общие стили */
+@import url(../blocks/root/root.css);
+@import url(../blocks/marged/marged.css);
+@import url(../blocks/container/container.css);
+
+/* Поиск */
+@import url(../blocks/search/search.css);
+
+/* Блок языка */
+@import url(../blocks/language/language.css);
+@import url(../blocks/language/__current-lng/language__current-lng.css);
+@import url(../blocks/language/__change-lng/language__change-lng.css);
+
+/* Блок с названием компании */
+@import url(../blocks/company/company.css);
+@import url(../blocks/company/__title/company__title.css);
+@import url(../blocks/company/__subtitle/company__subtitle.css);
+@import url(../blocks/company/_theme/company_theme_dark.css);
+@import url(../blocks/company/_theme/company_theme_light.css);
+
+/* Выравнивание текста */
+@import url(../blocks/text-align/_left.css);
+@import url(../blocks/text-align/_right.css);
+@import url(../blocks/text-align/center.css);
+
+/* Ссылки */
+@import url(../blocks/link/link.css);
+@import url(../blocks/link/_theme/link_theme_dark.css);
+@import url(../blocks/link/_theme/link_theme_light.css);
+@import url(../blocks/link/_underlined/link_underlined.css);
+@import url(../blocks/link/_sm/link_sm.css);
+@import url(../blocks/link/_strong/link_strong.css);
+
+/* Логотипы */
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
+
+/* Заголовки */
+@import url(../blocks/title/title.css);
+@import url(../blocks/page-title/page-title.css);
+
+/* Шапка */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__subline/header__subline.css);
+
+/* Навигационное меню */
+@import url(../blocks/navbar/navbar.css);
+@import url(../blocks/navbar/__block/navbar__block_left.css);
+@import url(../blocks/navbar/__block/navbar__block_right.css);
+@import url(../blocks/navbar/__list/navbar__list.css);
+@import url(../blocks/navbar/__item/navbar__item.css);
+@import url(../blocks/navbar/__phone/navbar__phone.css);
+@import url(../blocks/navbar/__tel/navbar__tel.css);
+@import url(../blocks/navbar/_theme/navbar_theme_dark.css);
+@import url(../blocks/navbar/_theme/navbar_theme_light.css);
+
+/* Форма контактная */
+@import url(../blocks/contact/contact.css);
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contact/__block/contact__block.css);
+@import url(../blocks/contact/__title-block/contact__title-block.css);
+@import url(../blocks/contact/__title/contact__title.css);
+@import url(../blocks/contact/__form/contact__form.css);
+@import url(../blocks/contact/__field/contact__field.css);
+@import url(../blocks/contact/__submit/contact__submit.css);
+@import url(../blocks/contact/__first-block/contacts__first-block.css);
+@import url(../blocks/contact/__second-block/contacts__second-block.css);
+@import url(../blocks/contacts/__container/contacts__container.css);
+
+/* Секция связи */
+@import url(../blocks/contacts/contacts.css);
+
+/* Подвал */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__nav/footer__nav.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/footer/__column-item/footer__column-item.css);
+@import url(../blocks/footer/__column-title/footer__column-title.css);
+@import url(../blocks/footer/__link/footer__link.css);
+
+/* Крошки */
+@import url(../blocks/crumbs/crumbs.css);
+@import url(../blocks/crumbs/__item/crumbs__item.css);
+@import url(../blocks/crumbs/__list/crumbs__list.css);
+
+/* Пагинация */
+@import url(../blocks/pagination/pagination.css);
+@import url(../blocks/pagination/__list/pagination__list.css);
+@import url(../blocks/pagination/__item/pagination__item.css);
+@import url(../blocks/pagination/__link/pagination__link.css);
+@import url(../blocks/pagination/__selected/pagination__selected.css);
+
+/* Список */
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__list/table__list.css);
+@import url(../blocks/table/__item/table__item.css);
+@import url(../blocks/table/__image/table__image.css);
+@import url(../blocks/table/__title/table__title.css);
+@import url(../blocks/table/__description/table__description.css);
+
+section {
+    margin: 0 8.75em;
+}
+
+.news {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-block {
+    width: 55%;
+    display: inline-block;
+}
+
+.right-block {
+    display: inline-block;
+    text-align: right;
+}
+
+.novelty-title {
+    font-size: 2.8125em;
+    width: 15em;
+}
+
+.novelty-subtitle {
+    font-size: 2em;
+    font-style: italic;
+}
+
+.novelty-text {
+    font-size: 0.875em;
+    line-height: 1.875em;
+    margin-top:  2.1875em;
+    margin-bottom: 6em;
+}
+
+.novelty-date {
+    display: block;
+    font-size: 0.875em;
+    font-weight: bold;
+    line-height: 0.6875em;
+    margin-bottom: 2.1875em;
+}
+
+.novelty-img {
+    width: 100%;
+    height: auto;
+}
+
+
+.subimg .link {
+    letter-spacing: normal;
+    margin-left: 1em;
+}
+
+.subimg img {
+    margin-bottom: -0.625em;
+    width: 2.1875em;
+}
+
+.back-btn {
+    padding: 1.25em 5em;
+    border: 1px solid #000;
+    font-size: 0.875em;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 0.375em;
+    margin-bottom: 9.375em;
+}
+
+.back-btn:hover {
+    transition: .3s ease;
+    background-color: rgba(0,0,0,.2);
+}
+
+.contact {
+    padding: 6.25em 0;
+    background-color: #f5f5f5;
+    margin-bottom: 0;
+    margin-top: 11.25em;
+}
+
+.contact__form {
+    margin-right: 8em;
+}
+
+.contact__title {
+    margin-right: 2.5em;
+}
