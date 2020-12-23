@@ -1,0 +1,11 @@
+.txt-table__th {
+    font-size:  1.25em;
+}
+
+.txt-table__th p{
+    margin-bottom: .3em;
+}
+
+.txt-table__th span {
+    font-weight: normal;
+}

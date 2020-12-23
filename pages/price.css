@@ -88,91 +88,40 @@
 @import url(../blocks/crumbs/__item/crumbs__item.css);
 @import url(../blocks/crumbs/__list/crumbs__list.css);
 
+/* Список продуктов */
+@import url(../blocks/product-category/product-category.css);
+@import url(../blocks/product-category/__list/product-category__list.css);
+@import url(../blocks/product-category/__item/product-category__item.css);
 
+/* Таблица */
+@import url(../blocks/txt-table/txt-table.css);
+@import url(../blocks/txt-table/__td/txt-table__td.css);
+@import url(../blocks/txt-table/__tr/txt-table__tr.css);
+@import url(../blocks/txt-table/__th/txt-table__th.css);
+@import url(../blocks/txt-table/__title/txt-table__title.css);
+@import url(../blocks/txt-table/__cm-list/txt-table__cm-list.css);
+@import url(../blocks/txt-table/__notification/txt-table__notification.css);
+@import url(../blocks/txt-table/__notification/txt-table__notification-list.css);
+@import url(../blocks/txt-table/_count/txt-table_count_one.css);
+@import url(../blocks/txt-table/_count/txt-table_count_two.css);
 
 section {
     margin: 0 8.75em;
 }
 
-.news {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.page-title {
+    text-align: center;
 }
 
-.left-block {
-    width: 55%;
-    display: inline-block;
-}
-
-.right-block {
-    display: inline-block;
-    text-align: right;
-}
-
-.novelty-title {
-    font-size: 2.8125em;
-    width: 15em;
-    margin-top: 0;
-}
-
-.novelty-subtitle {
-    font-size: 2em;
-    font-style: italic;
-}
-
-.novelty-text {
-    font-size: 0.875em;
-    line-height: 1.875em;
-    margin-top:  2.1875em;
-    margin-bottom: 6em;
-}
-
-.novelty-date {
-    display: block;
-    font-size: 0.875em;
-    font-weight: bold;
-    line-height: 0.6875em;
-    margin-bottom: 2.1875em;
-}
-
-.novelty-img {
-    width: 100%;
-    height: auto;
-}
-
-
-.subimg .link {
-    letter-spacing: normal;
-    margin-left: 1em;
-}
-
-.subimg img {
-    margin-bottom: -0.625em;
-    width: 2.1875em;
-}
-
-.back-btn {
-    padding: 1.25em 5em;
-    border: 1px solid #000;
-    font-size: 0.875em;
-    text-decoration: none;
-    color: #000;
-    text-transform: uppercase;
-    letter-spacing: 0.375em;
-    margin-bottom: 9.375em;
-}
-
-.back-btn:hover {
-    transition: .3s ease;
-    background-color: rgba(0,0,0,.2);
+.crumbs {
+    margin-bottom: 0;
 }
 
 .contact {
     padding: 6.25em 0;
     background-color: #f5f5f5;
     margin-bottom: 0;
-    margin-top: 11.25em;
+    margin-top: 10.625em;
 }
 
 .contact__form {

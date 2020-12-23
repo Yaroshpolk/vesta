@@ -1,0 +1,15 @@
+.txt-table__notification-list {
+    list-style: url(../../../images/ul.png);
+    height:  8.25em;
+    width: 100%;
+    margin-top: 2.8125em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.txt-table__notification-list li {
+    margin-top: 1em;
+    width: 40%;
+}

@@ -1,0 +1,10 @@
+.txt-table__field {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.txt-table_count_two .table {
+    width: 45%;
+}
