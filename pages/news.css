@@ -32,7 +32,7 @@
 @import url(../blocks/link/_theme/link_theme_light.css);
 @import url(../blocks/link/_underlined/link_underlined.css);
 @import url(../blocks/link/_sm/link_sm.css);
-@import url(../blocks/link/link_active.css);
+@import url(../blocks/link/_strong/link_strong.css);
 
 /* Логотипы */
 @import url(../blocks/logo/logo.css);

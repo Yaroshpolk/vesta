@@ -1,0 +1,10 @@
+.dealers__list {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 16em;
+    font-size: 1.1em;
+    width: 100%;
+}
