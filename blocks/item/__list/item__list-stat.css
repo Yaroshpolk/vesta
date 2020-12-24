@@ -2,6 +2,7 @@
     list-style: none;
     min-height: 18.125em;
     font-size: 1.125em;
+    line-height: 1.5625em;
 }
 
 .item__list-stat strong {
@@ -12,15 +13,22 @@
     font-size: 1.5625em;
 }
 
-.item__list-stat:nth-child(1) li {
-    margin-top: .5em;
-}
-
 .item__list-stat:first-child strong {
     margin-bottom: 1.8em;
 }
 
-.item__list-stat:nth-child(2) li,
+.item__list-stat:nth-child(1) li {
+    margin-top: .5em;
+}
+
+.item__list-stat:nth-child(2) li {
+    margin-top: 2.5em;
+}
+
 .item__list-stat:nth-child(3) li {
     margin-top: 2.5em;
+}
+
+.item__list-stat:nth-child(3) .link {
+    letter-spacing: normal;
 }

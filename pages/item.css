@@ -170,6 +170,25 @@ section {
     justify-content: space-between;
 }
 
+.lists .item__list-stat:first-child {
+    width: 50%;
+}
+
+.lists .item__list-stat:nth-child(2){
+    width: 20%;
+}
+
 .title {
     margin-bottom: -1.5em;
+}
+
+.products__img{
+    height: auto;
+}
+
+.products__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 2em;
 }
