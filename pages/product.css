@@ -8,11 +8,6 @@
 /* Поиск */
 @import url(../blocks/search/search.css);
 
-/* Иконка прокрутки мыши */
-@import url(../blocks/scroll-mouse/scroll-mouse.css);
-@import url(../blocks/scroll-mouse/__mouse/scroll-mouse__mouse.css);
-@import url(../blocks/scroll-mouse/__arrow/scroll-mouse__arrow.css);
-
 /* Блок языка */
 @import url(../blocks/language/language.css);
 @import url(../blocks/language/__current-lng/language__current-lng.css);
@@ -92,47 +87,83 @@
 @import url(../blocks/footer/__column-title/footer__column-title.css);
 @import url(../blocks/footer/__link/footer__link.css);
 
-.products {
-    margin-top: -4em;
-    margin-bottom: 10em;
+/* Крошки */
+@import url(../blocks/crumbs/crumbs.css);
+@import url(../blocks/crumbs/__item/crumbs__item.css);
+@import url(../blocks/crumbs/__list/crumbs__list.css);
+
+section {
+    margin: 0 8.75em;
 }
 
-.products__item {
-    width: 50%;
-    margin-top: 0 !important;
+.products__list {
+    margin-top: 2em;
+}
+
+.product-group {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.products__item {
+    width: 25%;
+    margin-top: 0 !important;
     height: auto;
-    padding: 4.5em 0;
+    padding: 1.5em 0 0 0;
 }
 
 .products__img-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    height: auto;
+    height: 70%;
     width: auto;
-    margin: 0 -5em 0 0 ;
+    margin: 0 auto 2.1875em auto;
+    text-align: center;
 }
 
 .products__img {
+    height: 100%;
+    margin: 0 auto;
     position: static;
-    margin: auto 0;
 }
 
-.product__text {
-    width: 40%;
-    text-align: start;
+.left-block {
+    width: 25%;
+
+}
+
+.right-block {
+    width: 75%;
+    text-align: right;
+}
+
+.group-img {
+    width: 90%;
+    height: auto;
+}
+
+.group-title {
+    font-size: 2.8125em;
+    width: 100%;
+    margin-top: 0;
+}
+
+.group-subtitle {
+    font-size: 1.5625em;
+    line-height: 1.875em;
+}
+
+.group-text {
     font-size: 1.125em;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
+    line-height: 1.875em;
+    margin-top:  3em;
+    margin-bottom: 6em;
 }
 
 .contact__title {
     margin-right: 2.1875em;
+}
+
+.contact {
+    margin-bottom: 10em;
 }
