@@ -122,20 +122,24 @@ section {
     width: 25%;
     margin-top: 0 !important;
     height: auto;
-    padding: 1.5em 0 0 0;
+    padding: 3em 0 0 0;
 }
 
 .products__img-container {
-    height: 70%;
-    width: auto;
-    margin: 0 auto 2.1875em auto;
-    text-align: center;
+    width: 100%;
+    margin: 0 auto 1em auto;
+    height: auto;
+}
+
+.products__item:nth-child(3) .products__img {
+    left: 0;
+    right: 0;
 }
 
 .products__img {
-    height: 100%;
-    margin: 0 auto;
-    position: static;
+    max-height: 22em;
+    height: auto;
+    position: relative;
 }
 
 .contact__title {
@@ -180,10 +184,6 @@ section {
 
 .title {
     margin-bottom: -1.5em;
-}
-
-.products__img{
-    height: auto;
 }
 
 .products__item {
