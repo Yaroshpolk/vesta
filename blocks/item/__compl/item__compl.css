@@ -1,0 +1,16 @@
+.item__compl {
+    margin-top: 4.375em;
+}
+
+.item__compl span {
+    font-size: 1.25em;
+}
+
+.item__compl .item__title{
+    margin: .2em 0;
+}
+
+.item__compl .nds {
+    font-size: 1.25em;
+    color: gray;
+}

@@ -1,0 +1,175 @@
+/* Шрифты */
+@import url(../blocks/fonts/fonts.css);
+
+/* Общие стили */
+@import url(../blocks/root/root.css);
+@import url(../blocks/marged/marged.css);
+
+/* Поиск */
+@import url(../blocks/search/search.css);
+
+/* Блок языка */
+@import url(../blocks/language/language.css);
+@import url(../blocks/language/__current-lng/language__current-lng.css);
+@import url(../blocks/language/__change-lng/language__change-lng.css);
+
+/* Блок с названием компании */
+@import url(../blocks/company/company.css);
+@import url(../blocks/company/__title/company__title.css);
+@import url(../blocks/company/__subtitle/company__subtitle.css);
+@import url(../blocks/company/_theme/company_theme_dark.css);
+@import url(../blocks/company/_theme/company_theme_light.css);
+
+/* Выравнивание текста */
+@import url(../blocks/text-align/_left.css);
+@import url(../blocks/text-align/_right.css);
+@import url(../blocks/text-align/center.css);
+
+/* Ссылки */
+@import url(../blocks/link/link.css);
+@import url(../blocks/link/_theme/link_theme_dark.css);
+@import url(../blocks/link/_theme/link_theme_light.css);
+@import url(../blocks/link/_underlined/link_underlined.css);
+@import url(../blocks/link/_sm/link_sm.css);
+@import url(../blocks/link/_strong/link_strong.css);
+
+/* Логотипы */
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
+
+/* Заголовки */
+@import url(../blocks/title/title.css);
+@import url(../blocks/page-title/page-title.css);
+
+/* Шапка */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__subline/header__subline.css);
+
+/* Навигационное меню */
+@import url(../blocks/navbar/navbar.css);
+@import url(../blocks/navbar/__block/navbar__block_left.css);
+@import url(../blocks/navbar/__block/navbar__block_right.css);
+@import url(../blocks/navbar/__list/navbar__list.css);
+@import url(../blocks/navbar/__item/navbar__item.css);
+@import url(../blocks/navbar/__phone/navbar__phone.css);
+@import url(../blocks/navbar/__tel/navbar__tel.css);
+@import url(../blocks/navbar/_theme/navbar_theme_dark.css);
+@import url(../blocks/navbar/_theme/navbar_theme_light.css);
+
+/* Форма контактная */
+@import url(../blocks/contact/contact.css);
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contact/__block/contact__block.css);
+@import url(../blocks/contact/__title-block/contact__title-block.css);
+@import url(../blocks/contact/__title/contact__title.css);
+@import url(../blocks/contact/__form/contact__form.css);
+@import url(../blocks/contact/__field/contact__field.css);
+@import url(../blocks/contact/__submit/contact__submit.css);
+@import url(../blocks/contact/__first-block/contacts__first-block.css);
+@import url(../blocks/contact/__second-block/contacts__second-block.css);
+@import url(../blocks/contacts/__container/contacts__container.css);
+
+/* Таблица товаров */
+@import url(../blocks/products/products.css);
+@import url(../blocks/products/__list/products__list.css);
+@import url(../blocks/products/__item/products__item.css);
+@import url(../blocks/products/__link/products__link.css);
+@import url(../blocks/products/__img-container/products__img-container.css);
+@import url(../blocks/products/__img/products__img.css);
+
+/* Подвал */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__nav/footer__nav.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/footer/__column-item/footer__column-item.css);
+@import url(../blocks/footer/__column-title/footer__column-title.css);
+@import url(../blocks/footer/__link/footer__link.css);
+
+/* Крошки */
+@import url(../blocks/crumbs/crumbs.css);
+@import url(../blocks/crumbs/__item/crumbs__item.css);
+@import url(../blocks/crumbs/__list/crumbs__list.css);
+
+/* Продукт */
+@import url(../blocks/item/__block/item__block-left.css);
+@import url(../blocks/item/__block/item__block-center.css);
+@import url(../blocks/item/__block/item__block-right.css);
+@import url(../blocks/item/__title/item__title.css);
+@import url(../blocks/item/__list/item__list-prints.css);
+@import url(../blocks/item/__list/item__list-stat.css);
+@import url(../blocks/item/__img/item__img.css);
+@import url(../blocks/item/__compl/item__compl.css);
+@import url(../blocks/item/__txt/item__txt.css);
+
+section {
+    margin: 0 8.75em;
+}
+
+.products__list {
+    margin-top: 2em;
+}
+
+.product-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.products__item {
+    width: 25%;
+    margin-top: 0 !important;
+    height: auto;
+    padding: 1.5em 0 0 0;
+}
+
+.products__img-container {
+    height: 70%;
+    width: auto;
+    margin: 0 auto 2.1875em auto;
+    text-align: center;
+}
+
+.products__img {
+    height: 100%;
+    margin: 0 auto;
+    position: static;
+}
+
+.contact__title {
+    margin-right: 2.1875em;
+}
+
+.contact {
+    padding-bottom: 8em;
+    margin-bottom: 0;
+}
+
+.subimg .link {
+    letter-spacing: normal;
+    margin-left: 1em;
+}
+
+.subimg img {
+    margin-bottom: -0.625em;
+    width: 2.1875em;
+}
+
+.dark {
+    margin-top: 5em;
+    background-color: #f2f2f2;
+    padding-top: 3em;
+}
+
+.lists {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.title {
+    margin-bottom: -1.5em;
+}

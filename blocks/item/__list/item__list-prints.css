@@ -1,0 +1,8 @@
+.item__list-prints {
+    list-style: none;
+    padding: 0;
+}
+
+.item__list-prints li {
+    margin-top: 2.5em;
+}

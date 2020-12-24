@@ -1,0 +1,26 @@
+.item__list-stat {
+    list-style: none;
+    min-height: 18.125em;
+    font-size: 1.125em;
+}
+
+.item__list-stat strong {
+    display: block;
+}
+
+.item__list-stat strong {
+    font-size: 1.5625em;
+}
+
+.item__list-stat:nth-child(1) li {
+    margin-top: .5em;
+}
+
+.item__list-stat:first-child strong {
+    margin-bottom: 1.8em;
+}
+
+.item__list-stat:nth-child(2) li,
+.item__list-stat:nth-child(3) li {
+    margin-top: 2.5em;
+}
