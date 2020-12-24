@@ -36,3 +36,7 @@
     text-align: center;
     color: #000;
 }
+
+textarea::placeholder {
+    text-align: left !important;
+}
