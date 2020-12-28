@@ -122,3 +122,13 @@
 .contact__title {
     margin-right: 2.5em;
 }
+
+@media screen and (max-width: 640px){
+    .pagination {
+        display: none;
+    }
+
+    .contact {
+        display: none;
+    }
+}

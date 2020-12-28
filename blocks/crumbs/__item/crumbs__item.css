@@ -7,3 +7,9 @@
 .crumbs__item:first-child {
     margin: 0;
 }
+
+@media screen and (max-width: 640px){
+    .crumbs__item {
+        font-size: 2.8em;
+    }
+}

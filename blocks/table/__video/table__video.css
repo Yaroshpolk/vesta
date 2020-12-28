@@ -4,3 +4,9 @@
     outline: 0;
     border: 0;
 }
+
+@media screen and (max-width: 640px){
+    .table__video {
+        height: 100%;
+    }
+}
