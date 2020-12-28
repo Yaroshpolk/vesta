@@ -132,3 +132,41 @@ section {
     letter-spacing: normal;
     margin: 1.3em 1em;
 }
+
+@media screen and (max-width: 640px){
+    .table__item {
+        width: 30%;
+        height: 36em;
+        margin-bottom: 8.66em;
+        margin-right: 5%;
+        -webkit-box-shadow: 1px 1px 0px 1px rgba(0,0,0,0.35);
+        -moz-box-shadow: 1px 1px 0px 1px rgba(0,0,0,0.35);
+        box-shadow: 1px 1px 0px 1px rgba(0,0,0,0.35);
+    }
+
+    .table__title {
+        font-size: 3em;
+    }
+
+    .table__item .link {
+        font-size: 2em;
+    }
+
+    .page-title {
+        text-align: left;
+        margin-top: .6em;
+    }
+
+    .crumbs{
+        margin-left: 9em;
+        font-size: .8em;
+    }
+
+    .table__item:nth-child(3n+3){
+        margin-right: 0;
+    }
+
+    section {
+        margin: 0 5.8em 0 5.8em;
+    }
+}
