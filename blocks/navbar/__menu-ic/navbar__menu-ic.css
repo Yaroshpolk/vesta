@@ -4,6 +4,14 @@
     margin-top: 5px;
 }
 
+.footer .navbar__menu-ic {
+    filter: invert(1);
+}
+
+.navbar__menu-ic:hover {
+    cursor: pointer;
+}
+
 @media screen and (max-width:640px) {
     .navbar__menu-ic {
         display: block;

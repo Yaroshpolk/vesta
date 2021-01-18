@@ -2,3 +2,9 @@
     letter-spacing: normal;
     font-size: 1.125em;
 }
+
+@media screen and (max-width: 640px){
+    .footer__link {
+        font-size: 18px;
+    }
+}

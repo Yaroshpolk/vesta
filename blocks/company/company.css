@@ -4,8 +4,17 @@
     width: 10.625em;
 }
 
+.footer .company:last-child {
+    display: none;
+}
+
 @media screen and (max-width: 640px){
     .footer .company {
         display: none;
+    }
+
+    .footer .company:last-child {
+        display: block;
+        font-size: 17px;
     }
 }

@@ -5,3 +5,13 @@
     flex-wrap: nowrap;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 640px){
+    .header .navbar {
+        padding-bottom: 40px;
+    }
+
+    .footer .navbar {
+        padding-bottom: 20px;
+    }
+}
