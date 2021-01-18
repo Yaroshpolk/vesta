@@ -48,6 +48,11 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__subline/header__subline.css);
 
+/* Телефонное меню */
+@import url(../blocks/mobile-menu/mobile-menu.css);
+@import url(../blocks/mobile-menu/__list/mobile-menu__list.css);
+@import url(../blocks/mobile-menu/__item/mobile-menu__item.css);
+
 /* Навигационное меню */
 @import url(../blocks/navbar/navbar.css);
 @import url(../blocks/navbar/__block/navbar__block_left.css);
@@ -58,6 +63,7 @@
 @import url(../blocks/navbar/__tel/navbar__tel.css);
 @import url(../blocks/navbar/_theme/navbar_theme_dark.css);
 @import url(../blocks/navbar/_theme/navbar_theme_light.css);
+@import url(../blocks/navbar/__menu-ic/navbar__menu-ic.css);
 
 /* Форма контактная */
 @import url(../blocks/contact/contact.css);
@@ -347,4 +353,77 @@ section {
     font-weight: bold;
     letter-spacing: normal;
     font-size: 1.875em;
+}
+
+@media screen and (max-width: 640px){
+    .upper-block {
+        flex-direction: column;
+    }
+
+    .upper-block img {
+        width: 100%;
+        margin: 0 -6.6em;
+    }
+
+    .contacts-list {
+        width: 88%;
+        font-size: 2.5em;
+    }
+
+    .contacts-list li {
+        display: inline-block;
+        line-height: 1.5em;
+        width: 45%;
+        margin: 0;
+    }
+
+    .contacts-list li:first-of-type {
+        display: none;
+    }
+
+    .contacts-list li:last-child {
+        float: right;
+    }
+
+    .page-title {
+        font-size: 3em !important;
+    }
+
+    .lists {
+        display: none;
+    }
+
+    .lists-h {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .lists-h .item__list-stat {
+        min-height: auto;
+    }
+
+    .lists-h ul{
+        width: auto;
+        display: inline-block;
+        list-style: none;
+        padding: 0;
+        font-size: 3.3em;
+        line-height: .6em;
+    }
+
+    .lists-h strong {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    .lists-h ul:last-child {
+
+        width: 30%;
+    }
+
+    .lists-h ul:last-child li {
+        margin: 0;
+        font-size: 20px;
+    }
 }

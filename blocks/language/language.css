@@ -4,3 +4,9 @@
     max-width: 35px;
     text-align: center;
 }
+
+@media screen and (max-width: 640px){
+    .header .language {
+        display: none;
+    }
+}

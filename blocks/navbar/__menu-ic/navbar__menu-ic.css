@@ -1,0 +1,11 @@
+.navbar__menu-ic {
+    max-width: 8.33em;
+    display: none;
+    margin-top: 5px;
+}
+
+@media screen and (max-width:640px) {
+    .navbar__menu-ic {
+        display: block;
+    }
+}

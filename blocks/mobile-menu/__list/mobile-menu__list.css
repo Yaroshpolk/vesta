@@ -1,0 +1,10 @@
+.mobile-menu__list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    border-top: 1px solid rgba(182,183,184,0.7);
+    border-bottom: 1px solid rgba(182,183,184,0.7);
+}

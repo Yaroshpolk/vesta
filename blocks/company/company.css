@@ -3,3 +3,9 @@
     letter-spacing: normal;
     width: 10.625em;
 }
+
+@media screen and (max-width: 640px){
+    .footer .company {
+        display: none;
+    }
+}

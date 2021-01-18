@@ -5,3 +5,10 @@
     margin-right: 4em;
     letter-spacing: 0.125em;
 }
+
+@media screen and (max-width: 640px){
+    .navbar__phone {
+        margin: 0 5em 0 0;
+        width: 35em;
+    }
+}

@@ -1,0 +1,19 @@
+.mobile-menu__item {
+    text-align: center;
+    border-top: 1px solid rgba(182,183,184,0.7);
+    border-bottom: 1px solid rgba(182,183,184,0.7);
+    background-color: #ebebeb;
+}
+
+.mobile-menu__item .link {
+    font-size: 4em;
+    padding:  2em 0;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.mobile-menu__item .link:focus {
+    background-color: white;
+    opacity: 1;
+}

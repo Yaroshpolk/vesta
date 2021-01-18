@@ -2,3 +2,9 @@
     font-size: 0.75em;
     letter-spacing: 0.125em;
 }
+
+@media screen and (max-width: 640px){
+    .link_sm {
+        font-size: 1.9em;
+    }
+}

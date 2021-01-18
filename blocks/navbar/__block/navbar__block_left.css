@@ -1,3 +1,9 @@
 .navbar__block_left {
     max-width: 935px;
 }
+
+@media screen and (max-width: 640px){
+    .navbar__block_left {
+        max-width: 180px;
+    }
+}

@@ -3,3 +3,9 @@
     font-weight: bold;
     font-size: 1.75em;
 }
+
+@media screen and (max-width: 640px){
+    .navbar__tel {
+        font-size: 4.66em;
+    }
+}

@@ -47,6 +47,11 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__subline/header__subline.css);
 
+/* Телефонное меню */
+@import url(../blocks/mobile-menu/mobile-menu.css);
+@import url(../blocks/mobile-menu/__list/mobile-menu__list.css);
+@import url(../blocks/mobile-menu/__item/mobile-menu__item.css);
+
 /* Навигационное меню */
 @import url(../blocks/navbar/navbar.css);
 @import url(../blocks/navbar/__block/navbar__block_left.css);
@@ -57,6 +62,7 @@
 @import url(../blocks/navbar/__tel/navbar__tel.css);
 @import url(../blocks/navbar/_theme/navbar_theme_dark.css);
 @import url(../blocks/navbar/_theme/navbar_theme_light.css);
+@import url(../blocks/navbar/__menu-ic/navbar__menu-ic.css);
 
 /* Форма контактная */
 @import url(../blocks/contact/contact.css);
