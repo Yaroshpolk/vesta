@@ -84,6 +84,9 @@
 @import url(../blocks/contact/__submit/contact__submit.css);
 @import url(../blocks/contact/__first-block/contacts__first-block.css);
 @import url(../blocks/contact/__second-block/contacts__second-block.css);
+
+/* Секция связи */
+@import url(../blocks/contacts/contacts.css);
 @import url(../blocks/contacts/__container/contacts__container.css);
 
 /* Таблица товаров */
@@ -154,10 +157,46 @@
     }
 
     .products__list {
-        max-width: 520px;
+        max-width: 550px;
     }
 
     .products__img-container {
-        width: 300%;
+        width: 35%;
+        height: 100%;
+        max-width: none;
+        min-width: auto;
+        max-height: none;
+    }
+
+    .products__img {
+        height: auto;
+        max-height: none;
+        max-width: 100%;
+    }
+
+    .title {
+        max-width: 245px;
+        text-align: left;
+        line-height: 30px;
+        letter-spacing: 1em;
+        margin: 0;
+        padding: 2em 0 1em 0;
+    }
+    .container {
+        max-width: 550px;
+        margin: 0 auto;
+    }
+
+    .product__text {
+        font-size: 15px;
+        width: 45%;
+    }
+
+    .cnt-first {
+        display: none;
+    }
+
+    .contacts {
+        margin-bottom: 0;
     }
 }

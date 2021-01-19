@@ -3,3 +3,9 @@
     height:  0.625em;
     background-image: url(../../../images/wood_texture.jpg);
 }
+
+@media screen and (max-width: 640px){
+    .header__subline {
+        height: .3em;
+    }
+}

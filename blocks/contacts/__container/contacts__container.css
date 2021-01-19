@@ -8,3 +8,46 @@
     justify-content: space-between;
     align-content: center;
 }
+
+@media screen and (max-width: 640px){
+    .contacts__container {
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 0;
+
+    }
+
+    .contacts__container .contact {
+        margin: 0 0 10em 0 !important;
+    }
+
+    .contacts__container .contact:first-child {
+        margin: 13em 0 10em 0 !important;
+    }
+
+    .contacts__container .contact__title-block {
+        width: 100%;
+        margin: 0 0 6em 0 !important;
+        text-align: center;
+    }
+
+    .contacts__container .contact__title {
+        font-size: 17px;
+        margin: 0;
+    }
+
+    .contacts__container br {
+        display: none;
+    }
+
+    .contacts__container .contact__field {
+        width: 290px;
+        font-size: 14px;
+    }
+
+    .contacts__container .contact__submit {
+        width: 205px;
+        font-size: 14px;
+        text-align: center;
+    }
+}
