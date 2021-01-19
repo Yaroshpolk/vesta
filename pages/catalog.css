@@ -151,6 +151,10 @@
     margin-right: 2.1875em;
 }
 
+.contacts {
+    display: none;
+}
+
 @media screen and (max-width: 640px){
     .products__item {
         width: 100%;
@@ -192,11 +196,12 @@
         width: 45%;
     }
 
-    .cnt-first {
-        display: none;
+    .contacts {
+        display: flex;
+        margin-bottom: 0;
     }
 
-    .contacts {
-        margin-bottom: 0;
+    .cnt-first {
+        display: none;
     }
 }
