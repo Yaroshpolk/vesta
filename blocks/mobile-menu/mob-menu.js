@@ -8,14 +8,12 @@ $(document).ready(function(){
                     $(position + " .navbar__block_left, .header .navbar__phone").css("opacity",".4");
                 }
                 active = true;
-                console.log(active);
             } else{
                 $(position + " .mobile-menu").css({ "height":"0"});
                 if (position === ".header"){
                     $(position + " .navbar__block_left, .header .navbar__phone").css("opacity","1");
                 }
                 active = false;
-                console.log(active);
             }
 
             return active;

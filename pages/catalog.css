@@ -68,6 +68,11 @@
 @import url(../blocks/navbar/_theme/navbar_theme_light.css);
 @import url(../blocks/navbar/__menu-ic/navbar__menu-ic.css);
 
+/* Телефонное меню */
+@import url(../blocks/mobile-menu/mobile-menu.css);
+@import url(../blocks/mobile-menu/__list/mobile-menu__list.css);
+@import url(../blocks/mobile-menu/__item/mobile-menu__item.css);
+
 /* Форма контактная */
 @import url(../blocks/contact/contact.css);
 @import url(../blocks/contacts/contacts.css);
