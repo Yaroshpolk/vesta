@@ -27,7 +27,6 @@ $(document).ready(function(){
     });
 
     $(".header .navbar__menu-ic").click(function (){
-        console.log($(this).data("toggle"));
         menu(".header", $(this).data("toggle"));
         $(this).data("toggle", !$(this).data("toggle"));
     });
