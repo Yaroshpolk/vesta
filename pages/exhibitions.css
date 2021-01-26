@@ -150,9 +150,8 @@ section {
 }
 
 .table__item {
-    width: 27%;
-    margin-right: 7.5%;
-    margin-bottom: 3em;
+    width: 100%;
+    margin: 0;
 }
 
 .table__image {
@@ -169,5 +168,126 @@ section {
 
 .table {
     margin-bottom: 5em;
+}
+
+.table__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5em;
+}
+
+.contact-mob {
+    display: none;
+}
+
+@media screen and (max-width: 640px){
+    .page-title {
+        text-align: left;
+        margin: 1em 0;
+        padding-left: .3em;
+    }
+
+    .page-informer {
+        padding: 5em 0;
+    }
+
+    .page-informer .container {
+        width: 87%;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .page-informer__date {
+        font-size: 14px;
+    }
+
+    .page-informer__title {
+        font-size: 20px;
+    }
+
+    .page-informer__description {
+        font-size: 14px;
+    }
+
+    .page-informer__btn {
+        font-size: 11px;
+    }
+
+    .page-informer__text {
+        margin-left: 0;
+    }
+
+    .page-informer__img {
+        height: 40em;
+        width: 55%;
+        margin-top: 5%;
+        object-fit: cover;
+    }
+
+    .table__title {
+        font-size: 18px;
+        text-transform: none;
+        letter-spacing: normal;
+    }
+
+    .table__description {
+        font-size: 14px;
+        margin-top: .5em;
+    }
+
+    .table__item {
+        height: auto;
+    }
+
+    .table__list {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 10em;
+    }
+
+    .table__image {
+        max-height: none;
+    }
+
+    .pagination {
+        display: none;
+    }
+
+    .contact {
+        display: none;
+    }
+
+    .contact-mob {
+        display: flex;
+        padding-bottom: 17em;
+        padding-top: 10em;
+    }
+
+    .contact__form {
+        margin: 0;
+    }
+
+    .contact__title-block {
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 2em;
+    }
+
+    .contact__title {
+        margin: 0;
+    }
+
+    .contact__title br {
+        display: none;
+    }
+
+    .contact__field {
+        font-size: 14px;
+    }
+
+    .contact__submit {
+        font-size: 14px;
+    }
+
 }
 
