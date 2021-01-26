@@ -142,3 +142,106 @@ section {
 .contact__title {
     margin-right: 2.5em;
 }
+
+.contact-mob {
+    display: none;
+}
+
+@media screen and (max-width: 640px){
+    .page-title {
+        text-align: left;
+        margin: 1em 0;
+        padding-left: .3em;
+    }
+
+    .product-category__list {
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 5em;
+    }
+
+    .product-category__item {
+        font-size: 14px;
+    }
+
+    .txt-table {
+        font-size: 18px;
+    }
+
+    .txt-table_count_one {
+        display: none;
+    }
+
+    .txt-table__field {
+        flex-direction: column;
+    }
+
+    .txt-table__field .table {
+        width: 100%;
+    }
+
+    .txt-table__field .txt-table {
+        width: 100%;
+    }
+
+    .txt-table__title {
+        font-size: 25px;
+        text-align: left;
+        max-width: 80%;
+    }
+
+    .txt-table__th p {
+        margin: 0;
+    }
+
+    .notification-field {
+        font-size: 20px;
+        margin: 4em 0;
+    }
+
+    .txt-table__notification-list {
+        margin: 0;
+    }
+
+    .txt-table__field .table caption {
+        margin-bottom: 1.3em;
+    }
+
+    .contact {
+        display: none;
+    }
+
+    .contact-mob {
+        display: flex;
+        padding-bottom: 17em;
+        padding-top: 10em;
+    }
+
+    .contact__form {
+        margin: 0;
+    }
+
+    .contact__title-block {
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 2em;
+    }
+
+    .contact__title {
+        margin: 0;
+    }
+
+    .contact__title br {
+        display: none;
+    }
+
+    .contact__field {
+        font-size: 14px;
+    }
+
+    .contact__submit {
+        font-size: 14px;
+    }
+}
