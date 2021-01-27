@@ -3,8 +3,7 @@
     padding: 0;
     max-width: 1660px;
     margin: 7em auto 0 auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 8em;
 }

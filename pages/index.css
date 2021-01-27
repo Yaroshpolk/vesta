@@ -162,3 +162,279 @@
 .header__subline {
     margin-top: .5em;
 }
+
+.news .title {
+    display: none;
+}
+
+@media screen and (max-width: 640px){
+
+    #slider-header {
+        height: auto;
+    }
+
+    #slider-header .slider__control {
+        top: 70em;
+    }
+
+    #slider-header .slider__item {
+        flex-direction: column-reverse;
+        max-height: none;
+    }
+
+    #slider-header .slider__img {
+        width: 60%;
+        max-width: none;
+        height: auto;
+        margin-left: auto;
+    }
+
+    #slider-header .slider__text {
+        width: 100%;
+        max-width: 75%;
+        max-height: none;
+        margin-top: 10%;
+    }
+
+    #slider-header .slider__title {
+        font-size: 99px;
+    }
+
+    #slider-header .slider__date {
+        font-size: 16px;
+    }
+
+    #slider-header .slider__subtitle {
+        font-size: 18px;
+    }
+
+    #slider-header .slider__description {
+        font-size: 14px;
+        margin: 2em 0;
+    }
+
+    #slider-header .slider__button {
+        font-size: 10px;
+    }
+
+    .header__subline {
+        margin-top: 0;
+        height: 10px;
+    }
+
+    .news {
+        margin-bottom: 100px;
+    }
+
+    .news .title {
+        display: table;
+        padding: 2em 0 .5em 0;
+    }
+
+    .news__list {
+        flex-direction: column;
+    }
+
+    .news__item {
+        justify-content: space-between;
+        display: grid;
+        grid-template-columns: 2fr 3fr ;
+        padding: 5em 0 ;
+        width: 80%;
+        margin: 0 auto;
+        border: 0 !important;
+    }
+
+    .news__img-link {
+        width: 100%;
+        max-width: none;
+    }
+
+    .news__img {
+        width: 70%;
+        max-width: none;
+    }
+
+    .news__text {
+        max-width: none;
+    }
+
+    .news__title {
+        font-size: 18px;
+        width: 100%;
+        max-width: none;
+        letter-spacing: .2em;
+    }
+
+    .news__description {
+        font-size: 14px;
+    }
+
+    .news__date {
+        font-size: 14px;
+    }
+
+    .contact__form {
+        margin: 0;
+    }
+
+    .contact__title-block {
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 2em;
+    }
+
+    .contact__title {
+        margin: 0;
+    }
+
+    .contact__title br {
+        display: none;
+    }
+
+    .contact__field {
+        font-size: 14px;
+    }
+
+    .contact__submit {
+        font-size: 14px;
+    }
+
+    .contact {
+        margin: 0;
+        display: block;
+        text-align: center;
+    }
+
+    .contact__block {
+        display: block;
+    }
+
+    .products {
+        width: 95%;
+        margin: 100px auto;
+    }
+
+    .products .title {
+        padding-bottom: 2em;
+    }
+
+    .products__list {
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 20em;
+    }
+
+    .title {
+        font-size: 19px;
+    }
+
+    .products__type-item {
+        font-size: 14px;
+    }
+
+    .products__item {
+        height: 50em;
+    }
+
+    .products__img-container {
+        max-width: 30em;
+        height: auto;
+        max-height: none;
+        padding-top: 25%;
+    }
+
+    .products__img {
+        width: 100%;
+        max-width: none;
+        max-height: unset;
+        height: auto;
+    }
+
+    .exhibitions {
+        margin-top: 100px;
+        height: auto;
+    }
+
+    #slider-exhibitions {
+        height: auto;
+    }
+
+    #slider-exhibitions .slider__item {
+        flex-direction: column;
+        width: 100%;
+        max-height: none;
+    }
+
+    .exhibitions .title {
+        padding: 40px 0 70px 0;
+    }
+
+    #slider-exhibitions .slider__img {
+        width: 70%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    #slider-exhibitions .slider__text {
+        max-width: 80%;
+        max-height: none;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    #slider-exhibitions .slider__title {
+        text-align: center;
+        font-size: 55px;
+        max-width: 100%;
+        margin: 30px 0;
+    }
+
+    #slider-exhibitions .slider__description {
+        font-size: 14px;
+        margin: 0 auto;
+    }
+
+    #slider-exhibitions .slider__control {
+        top: 50em;
+    }
+
+    .player {
+        padding: 30% 0;
+    }
+
+    .player__video {
+        height: 100%;
+    }
+
+    .player__wrapper {
+        background-position: center;
+        background-size: cover;
+    }
+
+    .player__title {
+        font-size: 70px;
+    }
+
+    .player__description {
+        font-size: 16px;
+    }
+
+    .player__time {
+        font-size: 14px;
+    }
+
+    .player__start {
+        width: 50% !important;
+        height: 100px !important;
+    }
+
+    .map__container {
+        height: 850px;
+    }
+
+    .contacts {
+        margin: 80px 0;
+    }
+
+}

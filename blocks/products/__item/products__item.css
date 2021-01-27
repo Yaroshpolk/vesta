@@ -1,14 +1,7 @@
 .products__item {
     border: 1px solid #000;
-    width: 25%;
+    width: 100%;
     text-align: center;
     height: 25.9375em;
     box-sizing: border-box;
-}
-
-.products__item:nth-child(5),
-.products__item:nth-child(6),
-.products__item:nth-child(7),
-.products__item:nth-child(8){
-    margin-top: 8em;
 }
