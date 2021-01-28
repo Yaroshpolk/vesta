@@ -199,3 +199,100 @@ section {
     margin-top: 2em;
     font-size: 1.2em;
 }
+
+.contact-mob {
+    display: none;
+}
+
+@media screen and (max-width: 640px){
+    .page-title {
+        text-align: left;
+        margin: 20px 0;
+    }
+
+
+
+    .contact {
+        display: none;
+    }
+
+    .contact-mob {
+        display: flex;
+        padding-bottom: 17em;
+        padding-top: 10em;
+    }
+
+    .contact__form {
+        margin: 0;
+    }
+
+    .contact__title-block {
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 2em;
+    }
+
+    .contact__title {
+        margin: 0;
+    }
+
+    .contact__title br {
+        display: none;
+    }
+
+    .contact__field {
+        font-size: 14px;
+    }
+
+    .contact__submit {
+        font-size: 14px;
+    }
+
+    .table__item {
+        width: 100%;
+        -moz-border-image: url('../images/border-bottom.png');
+        -webkit-border-image: url('../images/border-bottom.png');
+        -o-border-image: url('../images/border-bottom.png');
+        border-image: url('../images/border-bottom.png') 0 0 3 0 !important;
+        border-bottom: 1px solid black;
+        padding-bottom: 40px;
+        margin-bottom: 50px;
+    }
+
+    .table__item .block {
+        justify-content: space-between;
+    }
+
+    .table__item .container {
+        margin: 0 6.6em;
+    }
+
+    .table__title,
+    .table__description,
+    .table__tel,
+    .second-block .link{
+        font-size: 20px;
+    }
+
+    .table__item .block .img {
+        width: 70%;
+    }
+
+    .dealers__city {
+        font-size: 24px;
+        padding-top: 20px;
+    }
+
+    .dealers {
+        overflow: scroll;
+    }
+
+    .dealers__item {
+        width: 35%;
+    }
+
+    .dealers__item .link {
+        font-size: 24px;
+    }
+}
