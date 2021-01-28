@@ -273,7 +273,7 @@ section {
 }
 
 .page-title-2 {
-    width: 50%;
+    width: 13%;
 }
 
 .scheme strong {
@@ -299,6 +299,10 @@ section {
     list-style: none;
     padding: 0;
     width: 20%;
+}
+
+.page-title-2.mob {
+    display: none;
 }
 
 .inputs {
@@ -360,7 +364,16 @@ section {
     font-size: 1.875em;
 }
 
+.mob {
+    display: none;
+}
+
 @media screen and (max-width: 640px){
+
+    .mob {
+     display: block;
+    }
+
     .upper-block {
         flex-direction: column;
     }
@@ -370,65 +383,182 @@ section {
         margin: 0 -6.6em;
     }
 
-    .contacts-list {
+    .upper-block .contacts-list {
         width: 88%;
         font-size: 2.5em;
     }
 
-    .contacts-list li {
+    .upper-block .contacts-list li {
         display: inline-block;
         line-height: 1.5em;
         width: 45%;
         margin: 0;
     }
 
-    .contacts-list li:first-of-type {
+    .upper-block .contacts-list li:first-of-type {
         display: none;
     }
 
-    .contacts-list li:last-child {
+    .upper-block .contacts-list li:last-child {
         float: right;
     }
 
-    .page-title {
+    .upper-block .page-title {
         font-size: 3em !important;
     }
 
-    .lists {
-        display: none;
-    }
-
-    .lists-h {
+    .lists.mob {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        margin-bottom: 30px;
     }
 
-    .lists-h .item__list-stat {
-        min-height: auto;
-    }
-
-    .lists-h ul{
-        width: auto;
-        display: inline-block;
-        list-style: none;
+    .lists.mob .contacts-list {
         padding: 0;
-        font-size: 3.3em;
-        line-height: .6em;
-    }
-
-    .lists-h strong {
+        list-style: none;
+        width: 100%;
         font-size: 20px;
-        padding-bottom: 20px;
+        margin-right: 0;
+        margin-top: 0;
     }
 
-    .lists-h ul:last-child {
+    .lists.mob .contacts-list li {
+        margin-bottom: 0;
+        line-height: 1.3;
+    }
 
+    .lists.mob .contacts-list:last-child {
+        width: 50%;
+    }
+
+    .lists.mob .contacts-list strong {
+        line-height: 2;
+    }
+
+    .dark {
+        margin-top: 0;
+    }
+
+    .item__list-stat {
         width: 30%;
+        font-size: 20px;
     }
 
-    .lists-h ul:last-child li {
-        margin: 0;
+    .item__list-stat strong {
         font-size: 20px;
+    }
+
+
+    .item__list-stat:first-child {
+        display: none;
+    }
+
+    .lists .item__list-stat:nth-child(2) {
+        width: 40%;
+        margin-right: 0;
+    }
+
+    .lists .item__list-stat:nth-child(3) {
+        width: 36%;
+    }
+
+    .two-col li {
+        width: 100% !important;
+        line-height: 1.3;
+    }
+
+    .item__list-stat:last-child .two-col{
+        flex-direction: column !important;
+        width: 100%;
+    }
+
+    .item__list-stat:last-child .two-col li:last-child {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .lists {
+        flex-direction: row-reverse;
+
+    }
+
+    .page-title-2 {
+        order: -1;
+        font-size: 40px !important;
+        width: 100%;
+        margin-bottom: 40px !important;
+    }
+
+    .scheme {
+        flex-direction: column;
+    }
+
+    .scheme img {
+        order: 0;
+        width: 100%;
+        margin-left: -9em;
+    }
+
+    .scheme .contacts-list {
+        order: 1;
+        margin-top: 40px;
+        width: 55%;
+    }
+
+    .scheme .contacts-list p {
+        margin-top: 40px;
+    }
+
+    .scheme .contacts-list strong, .scheme .contacts-list p {
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    .scheme .contacts-list .contacts-list__title {
+        margin-bottom: 40px;
+    }
+
+    .page-title-2 {
+        display: none;
+    }
+
+    .page-title-2.mob {
+        display: block;
+    }
+
+    .contact-section {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .contact__form {
+        flex-direction: column;
+        font-size: 14px;
+    }
+
+    .contact__field::-webkit-input-placeholder {
+        text-align: left;
+    }
+    .contact__field::-moz-placeholder {
+        text-align: left;
+    }
+    .contact__field::-ms-input-placeholder {
+        text-align: left;
+    }
+    .contact__field::placeholder {
+        text-align: left;
+    }
+
+    .contact__form textarea {
+        margin-top: 10px;
+    }
+
+    .contact__title {
+        font-size: 30px !important;
+    }
+
+    .contact__title-block {
+        margin-bottom: 30px;
     }
 }
