@@ -180,6 +180,10 @@ section {
     display: none;
 }
 
+.contact__form {
+    text-align: center;
+}
+
 @media screen and (max-width: 640px){
     .page-title {
         text-align: left;
@@ -218,7 +222,7 @@ section {
     }
 
     .page-informer__img {
-        height: 40em;
+        height: 100%;
         width: 55%;
         margin-top: 5%;
         object-fit: cover;
@@ -289,5 +293,133 @@ section {
         font-size: 14px;
     }
 
+}
+
+@media screen and (max-width: 600px){
+    .page-informer__date {
+        font-size: 12px;
+    }
+
+    .page-informer__title {
+        font-size: 18px;
+    }
+
+    .page-informer__description {
+        font-size: 12px;
+    }
+
+    .page-informer__btn {
+        font-size: 9px;
+    }
+
+}
+
+@media screen and (max-width: 550px){
+    .page-informer__date {
+        font-size: 10px;
+    }
+
+    .page-informer__title {
+        font-size: 16px;
+    }
+
+    .page-informer__description {
+        font-size: 10px;
+    }
+
+    .page-informer__btn {
+        font-size: 7px;
+    }
+
+}
+
+
+@media screen and (max-width: 500px){
+    .page-informer__date {
+        font-size: 8px;
+    }
+
+    .page-informer__title {
+        font-size: 14px;
+    }
+
+    .page-informer__description {
+        font-size: 8px;
+    }
+
+    .page-informer__btn {
+        font-size: 5px;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+    .table__title {
+        font-size: 14px !important;
+    }
+
+    .table__description {
+        font-size: 11px !important;
+    }
+
+    .page-informer__date {
+        font-size: 6px;
+    }
+
+    .page-informer__title {
+        font-size: 12px;
+    }
+
+    .page-informer__description {
+        font-size: 6px;
+    }
+
+    .page-informer__btn {
+        font-size: 3px;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .table__title {
+        font-size: 12px !important;
+    }
+
+    .table__description {
+        font-size: 9px !important;
+    }
+
+    .page-informer__text {
+        width: 45%;
+    }
+
+    .page-informer__img {
+        width: 50%;
+    }
+
+    .page-informer__date {
+        font-size: 6px;
+    }
+
+    .page-informer__title {
+        font-size: 10px;
+    }
+
+    .page-informer__description {
+        font-size: 4px;
+    }
+
+    .page-informer__btn {
+        font-size: 3px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .table__title {
+        font-size: 10px !important;
+    }
+
+    .table__description {
+        font-size: 7px !important;
+    }
 }
 

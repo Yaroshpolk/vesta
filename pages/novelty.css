@@ -237,6 +237,7 @@ section {
 
     .novelty-title {
         font-size: 30px;
+        width: 80%;
     }
 
     .novelty-subtitle {
@@ -287,5 +288,86 @@ section {
 
     .contact__submit {
         font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 530px){
+
+    .novelty-title {
+        font-size: 25px;
+    }
+
+    .novelty-subtitle {
+        font-size: 17px;
+    }
+
+    .novelty-text {
+        font-size: 12px;
+    }
+
+    .back-btn {
+        font-size: 12px;
+    }
+
+    .link_underlined {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 425px){
+
+    .novelty-title {
+        font-size: 20px;
+    }
+
+    .novelty-subtitle {
+        font-size: 15px;
+    }
+
+    .novelty-text {
+        font-size: 10px;
+    }
+
+    .back-btn {
+        font-size: 10px;
+    }
+
+    .link_underlined {
+        font-size: 11px;
+    }
+
+    .subimg img {
+        width: 10%;
+    }
+}
+
+@media screen and (max-width: 355px){
+
+    .novelty-title {
+        font-size: 15px;
+    }
+
+    .novelty-subtitle {
+        font-size: 13px;
+    }
+
+    .novelty-text {
+        font-size: 8px;
+    }
+
+    .back-btn {
+        font-size: 8px;
+    }
+
+    .link_underlined {
+        font-size: 9px;
+    }
+
+    .subimg img {
+        width: 10%;
+    }
+
+    .crumbs__item {
+        margin-left: 1em;
     }
 }

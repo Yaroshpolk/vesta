@@ -170,8 +170,10 @@ section {
 }
 
 .table__image {
-    height: auto;
+    height: 100%;
     width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .table__item .link {
@@ -201,6 +203,10 @@ section {
 
 .contact-mob {
     display: none;
+}
+
+.contact__form {
+    text-align: center;
 }
 
 @media screen and (max-width: 640px){
@@ -291,5 +297,154 @@ section {
 
     .dealers__item .link {
         font-size: 24px;
+    }
+}
+
+
+
+@media screen and (max-width: 600px){
+    .table__title {
+        font-size: 18px;
+    }
+
+    .table__description {
+        font-size: 18px;
+    }
+
+    .table__tel {
+        font-size: 18px;
+    }
+
+    .second-block .link {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 530px){
+    .table__title {
+        font-size: 16px;
+    }
+
+    .table__description {
+        font-size: 16px;
+    }
+
+    .table__tel {
+        font-size: 16px;
+    }
+
+    .second-block .link {
+        font-size: 16px;
+    }
+    .table__item .container {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .table__title {
+        font-size: 14px;
+    }
+
+    .table__description {
+        font-size: 14px;
+    }
+
+    .table__tel {
+        font-size: 14px;
+    }
+
+    .second-block .link {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .table__title {
+        font-size: 14px;
+    }
+
+    .table__description {
+        font-size: 14px;
+    }
+
+    .table__tel {
+        font-size: 14px;
+    }
+
+    .second-block .link {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .table__title {
+        font-size: 12px;
+    }
+
+    .table__description {
+        font-size: 12px;
+    }
+
+    .table__tel {
+        font-size: 12px;
+    }
+
+    .second-block .link {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .table__title {
+        font-size: 10px;
+    }
+
+    .table__description {
+        font-size: 10px;
+    }
+
+    .table__tel {
+        font-size: 10px;
+    }
+
+    .second-block .link {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .table__title {
+        font-size: 8px;
+    }
+
+    .table__description {
+        font-size: 8px;
+    }
+
+    .table__tel {
+        font-size: 8px;
+    }
+
+    .second-block .link {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 260px){
+    .table__title {
+        font-size: 6px;
+    }
+
+    .table__description {
+        font-size: 6px;
+    }
+
+    .table__tel {
+        font-size: 6px;
+    }
+
+    .second-block .link {
+        font-size: 6px;
     }
 }

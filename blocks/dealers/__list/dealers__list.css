@@ -8,3 +8,15 @@
     font-size: 1.1em;
     width: 100%;
 }
+
+@media screen and (max-width: 350px){
+    .dealers__list .link{
+        font-size: 18px !important;
+    }
+}
+
+@media screen and (max-width: 250px){
+    .dealers__list .link{
+        font-size: 15px !important;
+    }
+}

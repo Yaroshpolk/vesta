@@ -181,3 +181,23 @@ section {
         margin: 0 5.8em 0 5.8em;
     }
 }
+
+@media screen and (max-width: 380px){
+    .table__item {
+        height: 30em;
+    }
+
+    .table__title {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 280px){
+    .table__item {
+        height: 25em;
+    }
+
+    .table__title {
+        font-size: 7px;
+    }
+}

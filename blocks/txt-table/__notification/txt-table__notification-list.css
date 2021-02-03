@@ -3,13 +3,41 @@
     height:  8.25em;
     width: 100%;
     margin-top: 2.8125em;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
 }
 
 .txt-table__notification-list li {
     margin-top: 1em;
-    width: 40%;
+}
+
+@media screen and (max-width: 600px){
+    .txt-table__notification-list li {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .txt-table__notification-list li {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .txt-table__notification-list li {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .txt-table__notification-list li {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .txt-table__notification-list li {
+        font-size: 9px;
+    }
 }

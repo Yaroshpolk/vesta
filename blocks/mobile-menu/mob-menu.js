@@ -3,9 +3,9 @@ $(document).ready(function(){
  function menu(position, active) {
 
             if (active == false){
-                if ($(".mobile-menu").css('width') >= "500px") {
+                if ($(".mobile-menu").css('width') > "500px") {
                     $(position + " .mobile-menu").css({ "height":"510px"});
-                }else if ($(".mobile-menu").css('width') < "500px") {
+                }else if ($(".mobile-menu").css('width') <= "500px") {
                     $(position + " .mobile-menu").css({ "height":"340px"});
                 }
 

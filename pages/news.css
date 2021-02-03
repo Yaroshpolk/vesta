@@ -310,6 +310,10 @@ section {
     .news__img-link {
         width: 100%;
         max-width: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
     }
 
     .news__img {
@@ -338,5 +342,121 @@ section {
 
     .news__list {
         margin-bottom: 8em !important;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .page-informer__date {
+        font-size: 12px;
+    }
+
+    .page-informer__title {
+        font-size: 18px;
+    }
+
+    .page-informer__description {
+        font-size: 12px;
+    }
+
+    .page-informer__btn {
+        font-size: 9px;
+    }
+
+}
+
+@media screen and (max-width: 550px){
+    .page-informer__date {
+        font-size: 10px;
+    }
+
+    .page-informer__title {
+        font-size: 16px;
+    }
+
+    .page-informer__description {
+        font-size: 10px;
+    }
+
+    .page-informer__btn {
+        font-size: 7px;
+    }
+
+}
+
+
+@media screen and (max-width: 500px){
+    .page-informer__date {
+        font-size: 8px;
+    }
+
+    .page-informer__title {
+        font-size: 14px;
+    }
+
+    .page-informer__description {
+        font-size: 8px;
+    }
+
+    .page-informer__btn {
+        font-size: 5px;
+    }
+
+    .page-title {
+        padding-left: .7em;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+
+    .page-informer__date {
+        font-size: 6px;
+    }
+
+    .page-informer__title {
+        font-size: 12px;
+    }
+
+    .page-informer__description {
+        font-size: 6px;
+    }
+
+    .page-informer__btn {
+        font-size: 3px;
+    }
+
+    .page-informer__img {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 380px){
+
+    .page-informer__text {
+        width: 45%;
+    }
+
+    .page-informer__img {
+        width: 50%;
+    }
+
+    .page-informer__date {
+        font-size: 6px;
+    }
+
+    .page-informer__title {
+        font-size: 10px;
+    }
+
+    .page-informer__description {
+        font-size: 4px;
+    }
+
+    .page-informer__btn {
+        font-size: 3px;
+    }
+
+    .news__img {
+        width: 90%;
     }
 }
