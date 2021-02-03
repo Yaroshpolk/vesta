@@ -8,3 +8,15 @@
         max-width: 29.16em;
     }
 }
+
+@media screen and (max-width: 340px) {
+    .logo {
+        max-width: 23em;
+    }
+}
+
+@media screen and (max-width: 260px) {
+    .logo {
+        max-width: 18em;
+    }
+}

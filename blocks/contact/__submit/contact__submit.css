@@ -13,3 +13,16 @@
 .contact__submit:hover {
     cursor: pointer;
 }
+
+@media screen and (max-width: 515px) {
+    .contact__submit {
+        font-size: 10px !important;
+        width: 40% !important;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .contact__submit {
+        font-size: 8px !important;
+    }
+}

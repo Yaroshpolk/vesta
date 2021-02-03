@@ -8,3 +8,9 @@
     font-size: 4.375em;
     letter-spacing: 0.1em;
 }
+
+@media screen and (max-width: 320px){
+    .player__title {
+        font-size: 55px !important;
+    }
+}

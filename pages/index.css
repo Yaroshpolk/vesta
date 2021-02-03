@@ -438,3 +438,29 @@
     }
 
 }
+
+@media screen and (max-width: 515px) {
+    .news {
+        margin-bottom: 50px;
+    }
+
+    .products .title {
+        padding-top: 2em;
+    }
+
+    .products {
+        margin: 50px auto;
+    }
+
+    .title {
+        font-size: 14px;
+    }
+
+    .products__item {
+        height: auto;
+    }
+
+    .exhibitions .title {
+        padding: 2.5em 0;
+    }
+}

@@ -12,3 +12,21 @@
         width: 35em;
     }
 }
+
+@media screen and (max-width: 515px) {
+    .navbar__phone {
+        margin: 0 2em 0 0;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .navbar__phone {
+        font-size: 4px;
+    }
+}
+
+@media screen and (max-width: 245px) {
+    .navbar__phone {
+        display: none;
+    }
+}

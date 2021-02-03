@@ -15,3 +15,13 @@
         padding-bottom: 20px;
     }
 }
+
+@media screen and (max-width: 640px){
+    .header .navbar {
+        padding-bottom: 20px;
+    }
+
+    .footer .navbar {
+        padding-bottom: 10px;
+    }
+}

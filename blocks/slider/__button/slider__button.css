@@ -12,3 +12,9 @@
     transition: .3s ease;
     background-color: rgba(255,255,255,.5);
 }
+
+@media screen and (max-width: 515px) {
+    .slider__button{
+        font-size: 7px !important;
+    }
+}

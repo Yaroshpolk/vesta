@@ -9,3 +9,9 @@
     margin: 2.375em 0 3.75em 0;
     width: 30em;
 }
+
+@media screen and (max-width: 515px) {
+    .slider__description {
+        font-size: 8px !important;
+    }
+}

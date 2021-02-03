@@ -4,3 +4,15 @@
     font-weight: bold;
     letter-spacing: 0.3125em;
 }
+
+@media screen and (max-width: 515px) {
+    .contact__title {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 355px){
+    .contact__title {
+        font-size: 12px !important;
+    }
+}

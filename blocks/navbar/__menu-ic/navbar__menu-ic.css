@@ -16,4 +16,8 @@
     .navbar__menu-ic {
         display: block;
     }
+    .navbar__menu-ic img{
+
+        width: 100%;
+    }
 }

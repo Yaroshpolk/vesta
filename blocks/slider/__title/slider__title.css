@@ -19,3 +19,9 @@
     text-transform: uppercase;
     letter-spacing: .1em;
 }
+
+@media screen and (max-width: 515px) {
+    .slider__title {
+        font-size: 9em !important;
+    }
+}

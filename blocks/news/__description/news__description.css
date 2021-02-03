@@ -2,3 +2,10 @@
     margin: 1.5625em 0 1.125em 0;
     padding: 0;
 }
+
+@media screen and (max-width: 450px){
+    .news__description {
+        font-size: 3em !important;
+        margin: .8em 0 .6px 0;
+    }
+}

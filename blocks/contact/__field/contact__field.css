@@ -40,3 +40,16 @@
 textarea::placeholder {
     text-align: left !important;
 }
+
+@media screen and (max-width: 515px) {
+    .contact__field {
+        font-size: 10px !important;
+        width: 50% !important;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .contact__field {
+        font-size: 8px !important;
+    }
+}

@@ -3,7 +3,12 @@ $(document).ready(function(){
  function menu(position, active) {
 
             if (active == false){
-                $(position + " .mobile-menu").css({ "height":"510px"});
+                if ($(".mobile-menu").css('width') >= "500px") {
+                    $(position + " .mobile-menu").css({ "height":"510px"});
+                }else if ($(".mobile-menu").css('width') < "500px") {
+                    $(position + " .mobile-menu").css({ "height":"340px"});
+                }
+
                 if (position === ".header"){
                     $(position + " .navbar__block_left, .header .navbar__phone").css("opacity",".4");
                 }

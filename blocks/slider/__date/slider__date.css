@@ -6,3 +6,9 @@
     margin: 0;
     background-color: #e4be8c;
 }
+
+@media screen and (max-width: 515px) {
+    .slider__date {
+        font-size: 9px !important;
+    }
+}

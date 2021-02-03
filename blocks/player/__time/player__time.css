@@ -5,3 +5,9 @@
     text-decoration: underline;
     font-size:  0.875em;
 }
+
+@media screen and (max-width: 320px){
+    .player__time {
+        margin-top: 1.5em;
+    }
+}
