@@ -312,6 +312,10 @@ section {
     .link_underlined {
         font-size: 13px;
     }
+
+    .contact__form {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 425px){

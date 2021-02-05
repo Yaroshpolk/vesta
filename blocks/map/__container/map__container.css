@@ -5,9 +5,3 @@
     background-size: cover;
     background-position: center;
 }
-
-@media screen and (max-width: 420px){
-    .map__container {
-        height: 36em !important;
-    }
-}

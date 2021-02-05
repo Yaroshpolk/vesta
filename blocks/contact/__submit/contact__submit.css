@@ -14,10 +14,10 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 515px) {
+@media screen and (max-width: 520px) {
     .contact__submit {
         font-size: 9px !important;
-        width: 40% !important;
+        width: 13em !important;
         padding: .9em .5em;
     }
 }

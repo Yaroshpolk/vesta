@@ -285,6 +285,10 @@ section {
     .txt-table__td {
         font-size: 11px;
     }
+
+    .contact__form {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 500px){

@@ -263,6 +263,10 @@ section {
         margin-bottom: 50px;
     }
 
+    .table__item:last-child {
+        border-bottom: 0    ;
+    }
+
     .table__item .block {
         justify-content: space-between;
     }
@@ -298,9 +302,11 @@ section {
     .dealers__item .link {
         font-size: 24px;
     }
+
+    .cells {
+        background-color: #fff;
+    }
 }
-
-
 
 @media screen and (max-width: 600px){
     .table__title {
@@ -338,6 +344,10 @@ section {
     }
     .table__item .container {
         margin-left: 15px;
+    }
+
+    .page-title {
+        font-size: 40px !important;
     }
 }
 
@@ -410,6 +420,10 @@ section {
 
     .second-block .link {
         font-size: 10px;
+    }
+
+    .page-title {
+        font-size: 35px !important;
     }
 }
 

@@ -307,6 +307,10 @@ section {
         border: 1px solid black;
     }
 
+    .news__item:last-child {
+        border-bottom: 0;
+    }
+
     .news__img-link {
         width: 100%;
         max-width: none;
@@ -379,6 +383,10 @@ section {
 
     .page-informer__btn {
         font-size: 7px;
+    }
+
+    .contact__form {
+        text-align: center;
     }
 
 }

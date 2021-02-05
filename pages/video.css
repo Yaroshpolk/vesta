@@ -142,4 +142,8 @@
     .contact {
         display: none;
     }
+
+    .table__item {
+        margin-bottom: 23em;
+    }
 }

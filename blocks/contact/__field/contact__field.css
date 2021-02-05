@@ -41,10 +41,10 @@ textarea::placeholder {
     text-align: left !important;
 }
 
-@media screen and (max-width: 515px) {
+@media screen and (max-width: 520px) {
     input.contact__field {
-        font-size: 9px !important;
-        width: 50% !important;
+        font-size: 9px;
+        width: 17em !important;
     }
 }
 

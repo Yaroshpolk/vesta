@@ -205,6 +205,11 @@ section {
     flex-direction: column;
     justify-content: space-between;
     padding-bottom: 2em;
+    border-right: 0;
+}
+
+.products__item:last-child {
+    border-right: 1px solid #000;
 }
 
 .contacts {
@@ -273,13 +278,28 @@ section {
     .products__list {
         grid-template-columns: repeat(2, 1fr);
         grid-row-gap: 0;
+        border: 1px solid #000;
     }
 
     .products__item {
         width: 100%;
         height: auto;
         padding: 20px 0;
+        border-right: 1px solid #000;
+        border-top: 0;
+        border-left: 0;
+        border-bottom: 0;
     }
+
+    .products__item:nth-child(1),
+    .products__item:nth-child(2){
+        border-bottom: 1px solid #000;
+    }
+
+    .products__item:nth-child(2n) {
+        border-right: 0;
+    }
+
 
     .products__img-container {
         max-width: 70%;
